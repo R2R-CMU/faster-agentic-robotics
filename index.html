@@ -130,6 +130,17 @@ figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 10px; text-alig
 .notes.agent-time { max-width: none; text-align: left; }
 .notes.playback { margin-top: 6px; }
 
+/* Full skill inventory link */
+.skill-callout { display: flex; align-items: center; justify-content: space-between; gap: 20px 32px; padding: 24px 28px; box-sizing: border-box; border: 1px solid #C5D8E8; border-left: 4px solid var(--blue); border-radius: 12px; background: #F2F7FB; }
+.skill-callout h2 { margin: 0 0 5px; text-align: left; font-size: 1.2rem; }
+.skill-callout p { margin: 0; max-width: 640px; color: #465D70; font-size: 0.92rem; }
+.skill-callout .skill-link { display: inline-flex; align-items: center; justify-content: center; gap: 10px; flex-shrink: 0; padding: 12px 18px; border-radius: 8px; background: #2B5F8A; color: #fff; font-size: 0.9rem; font-weight: 600; text-align: center; }
+.skill-callout .skill-link:hover { background: #204C71; text-decoration: none; }
+@media (max-width: 700px) {
+  .skill-callout { flex-direction: column; align-items: flex-start; padding: 20px; gap: 16px; }
+  .skill-callout .skill-link { box-sizing: border-box; max-width: 100%; }
+}
+
 /* Simulation hub: the donor top-middle, its five recipients around it, arrows from donor to each */
 .sim-grid { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-areas: "r0 d r1" "r2 r3 r4"; gap: 56px 64px; }
 .sim-grid > .donor { grid-area: d; } .sim-grid > .r0 { grid-area: r0; } .sim-grid > .r1 { grid-area: r1; }
@@ -214,6 +225,14 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
   <p class="notes agent-time">Agent time is the summed duration of coding agent turns. Each task has three baseline and three transfer runs with Opus 5.5 at high effort.</p>
   <p class="notes playback">Videos play at 2×. Click any video to enlarge it.</p>
 </section>
+
+<aside id="skill-library" class="skill-callout wide" aria-labelledby="skill-library-heading">
+  <div>
+    <h2 id="skill-library-heading">What transfers between tasks?</h2>
+    <p>Explore all 42 skills across seven donor libraries and see which code each recipient retains in our real-robot study.</p>
+  </div>
+  <a class="skill-link" href="skill-transfer/">View the full skill-transfer table <span aria-hidden="true">→</span></a>
+</aside>
 
 <!-- Physical transfer: cards rendered from static/data/experiments.json -->
 <section id="transfer" class="wide">
