@@ -114,7 +114,12 @@
     "minutes": -0.523,
     "tokens": -0.4149
    },
-   "terminal": "static/videos/2up_to_2down_terminal.mp4"
+   "terminal": {
+    "video": "static/videos/2up_to_2down_terminal.mp4",
+    "poster": "static/videos/2up_to_2down_terminal.jpg",
+    "speed": 16,
+    "note": "full session"
+   }
   },
   {
    "id": "2down_to_2up",
@@ -141,10 +146,10 @@
     "reuse": {
      "video": "static/videos/2down_to_2up_reuse.mp4",
      "poster": "static/videos/2down_to_2up_reuse.jpg",
-     "seed": "1",
-     "attempt": "1",
+     "seed": "2",
+     "attempt": "5",
      "robot": "kinova_b",
-     "robot_s": 57
+     "robot_s": 60
     }
    },
    "donor": {
@@ -225,7 +230,12 @@
     "minutes": -0.1056,
     "tokens": 0.3155
    },
-   "terminal": "static/videos/2down_to_2up_terminal.mp4"
+   "terminal": {
+    "video": "static/videos/2down_to_2up_terminal.mp4",
+    "poster": "static/videos/2down_to_2up_terminal.jpg",
+    "speed": 16,
+    "note": "last 7 min of the session"
+   }
   },
   {
    "id": "2_to_3cups",
@@ -320,7 +330,7 @@
     "minutes": -0.4111,
     "tokens": 0.0087
    },
-   "terminal": "static/videos/2_to_3cups_terminal.mp4"
+   "terminal": null
   },
   {
    "id": "3to5cups",
@@ -415,7 +425,7 @@
     "minutes": -0.6112,
     "tokens": -0.4117
    },
-   "terminal": "static/videos/3to5cups_terminal.mp4"
+   "terminal": null
   },
   {
    "id": "3to6cups",
@@ -494,7 +504,7 @@
     "minutes": -0.5466,
     "tokens": -0.4277
    },
-   "terminal": "static/videos/3to6cups_terminal.mp4"
+   "terminal": null
   },
   {
    "id": "cap_to_cup_holder",
@@ -581,7 +591,7 @@
     "minutes": -0.4686,
     "tokens": -0.4466
    },
-   "terminal": "static/videos/cap_to_cup_holder_terminal.mp4"
+   "terminal": null
   },
   {
    "id": "cup_to_cap_holder",
@@ -668,7 +678,7 @@
     "minutes": -0.1245,
     "tokens": -0.2637
    },
-   "terminal": "static/videos/cup_to_cap_holder_terminal.mp4"
+   "terminal": null
   }
  ]
 }

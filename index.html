@@ -281,7 +281,7 @@ function render(F) {
     tile(faster + '/' + exps.length, 'transfers faster than baseline');
 
   function vid(c, label) {
-    return '<div class="vid" data-label="' + label + '"><video data-src="' + c.video + '" poster="' + c.poster + '" muted loop playsinline preload="none"></video><span class="speed">' + speed + '×</span></div>';
+    return '<div class="vid" data-label="' + label + '"><video data-src="' + c.video + '" poster="' + c.poster + '" muted loop playsinline preload="none"></video><span class="speed">' + (c.speed || speed) + '×</span></div>';
   }
   // Agent time and tokens as bars on the shared scale; hover a bar for per-seed values.
   function bars(s, kind, note) {
@@ -294,7 +294,6 @@ function render(F) {
       row('minutes', 'Time', s.minutes.toFixed(1) + ' min') + row('tokens_m', 'Tokens', s.tokens_m.toFixed(2) + 'M') +
       (note ? '<span class="sub">' + note + '</span>' : '') + '</div>';
   }
-  function seedsNote(s) { return s.seeds.length > 1 ? 'mean of ' + s.seeds.length + ' seeds' : '1 seed'; }
 
   document.getElementById('cards').innerHTML = exps.map(function (e) {
     var title = e.source + ' ⇒ ' + e.target;
@@ -303,9 +302,10 @@ function render(F) {
       '<span class="pills">' + pill(e.change.minutes, 'agent time') + pill(e.change.tokens, 'tokens') + '</span></div>' +
       '<div class="cols">' +
         '<div class="col">' + vid(e.clips.donor, title + ' · Donor') + '<h4>Donor' + q('donor', 'the donor') + '</h4>' + bars(e.donor, 'donor') + '</div>' +
-        '<div class="col">' + vid(e.clips.baseline, title + ' · Baseline') + '<h4>Baseline' + q('baseline', 'the baseline') + '</h4>' + bars(e.baseline, '', seedsNote(e.baseline)) + '</div>' +
-        '<div class="col">' + vid(e.clips.reuse, title + ' · Skill reuse') + '<h4 class="ours">Skill reuse' + q('reuse', 'skill reuse') + '</h4>' + bars(e.reuse, 'ours', seedsNote(e.reuse)) + '</div>' +
-        '<div class="col">' + slot(e.terminal, 'Agent terminal', title + ' · Terminal') + '<h4>Terminal' + q('terminal', 'the terminal') + '</h4><div class="mini"><span class="sub">Coming soon.</span></div></div>' +
+        '<div class="col">' + vid(e.clips.baseline, title + ' · Baseline') + '<h4>Baseline' + q('baseline', 'the baseline') + '</h4>' + bars(e.baseline, '') + '</div>' +
+        '<div class="col">' + vid(e.clips.reuse, title + ' · Skill reuse') + '<h4 class="ours">Skill reuse' + q('reuse', 'skill reuse') + '</h4>' + bars(e.reuse, 'ours') + '</div>' +
+        '<div class="col">' + (e.terminal ? vid(e.terminal, title + ' · Terminal') : slot('static/videos/' + e.id + '_terminal.mp4', 'Agent terminal', title + ' · Terminal')) +
+          '<h4>Terminal' + q('terminal', 'the terminal') + '</h4><div class="mini"><span class="sub">' + (e.terminal ? 'Skill reuse, ' + e.terminal.note : 'Coming soon.') + '</span></div></div>' +
       '</div>' +
       '</article>';
   }).join('');
