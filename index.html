@@ -3,38 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Faster Agentic Robotics with Fewer Tokens. Project page.">
-<title>Faster Agentic Robotics with Fewer Tokens</title>
+<meta name="color-scheme" content="light">
+<meta name="description" content="FAR: Faster Agentic Robotics with Fewer Tokens. Project page.">
+<title>FAR: Faster Agentic Robotics with Fewer Tokens</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: Nerfies-style project page, video-first. Centered title block, full-width teaser video, short abstract, paper figure, then video sections on a wider 1000px grid. */
+/* Layout: title block, mosaic of real-robot runs (after EgoScale), paper figure + short intro,
+   one card per physical transfer (generated data in static/data/experiments.json), highlights, BibTeX.
+   White page only. */
 :root {
   --bg: #ffffff;
   --fg: #363636;
   --muted: #64748B;        /* fargray from the paper */
   --blue: #3976A8;         /* farblue */
-  --teal: #287D78;         /* farteal */
+  --orange: #D9822B;
   --panel: #f3f5f8;
   --line: #e3e7ec;
-  --slot: #1d2229;         /* video placeholder ground */
-  --slot-fg: #c6ced8;
+  --slot-fg: #64748B;
+  --bar-base: #A3AEBD;     /* baseline bars: neutral, so skill reuse carries the accent */
   --btn: #363636;
   --btn-fg: #ffffff;
   --font-body: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #14171b; --fg: #dde2e8; --muted: #94a3b8; --blue: #7fb2dd; --teal: #6cc2bb;
-    --panel: #1c2026; --line: #2c323a; --slot: #0c0e11; --slot-fg: #aab4c0;
-    --btn: #e8ecf0; --btn-fg: #14171b; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #14171b; --fg: #dde2e8; --muted: #94a3b8; --blue: #7fb2dd; --teal: #6cc2bb;
-  --panel: #1c2026; --line: #2c323a; --slot: #0c0e11; --slot-fg: #aab4c0;
-  --btn: #e8ecf0; --btn-fg: #14171b; color-scheme: dark;
+  color-scheme: light;
 }
 body {
   margin: 0;
@@ -47,7 +39,8 @@ a { color: var(--blue); text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 
-.wide { max-width: 1000px; margin: 0 auto; }
+.full { max-width: 1400px; margin: 0 auto; }
+.wide { max-width: 1100px; margin: 0 auto; }
 .narrow { max-width: 760px; margin: 0 auto; }
 section { padding-block: 36px; }
 
@@ -55,10 +48,11 @@ section { padding-block: 36px; }
 .hero { text-align: center; padding-block: 52px 28px; }
 .title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.15; margin: 0 0 18px; text-wrap: balance; letter-spacing: -0.01em; }
 .title .acr { color: var(--blue); }
-.authors { font-size: 1.15rem; margin: 0 0 4px; }
-.affil { font-size: 1.05rem; margin: 0 0 4px; }
+.authors { font-size: 1.15rem; margin: 0 0 4px; display: flex; flex-wrap: wrap; justify-content: center; gap: 2px 22px; }
+.authors sup { color: var(--muted); }
+.affil { font-size: 1.05rem; margin: 6px 0 2px; }
+.eq { color: var(--muted); font-size: 0.88rem; margin: 0 0 4px; }
 .venue { color: var(--muted); font-size: 0.98rem; margin: 0 0 22px; }
-.pending { background: #FFF1B8; color: #5c4a00; padding: 1px 7px; border-radius: 3px; font-size: 0.92em; }
 .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 .btn {
   display: inline-flex; align-items: center; gap: 8px;
@@ -70,65 +64,87 @@ section { padding-block: 36px; }
 .btn[aria-disabled="true"]:hover { text-decoration: none; }
 
 h2 { font-size: 1.75rem; font-weight: 600; text-align: center; margin: 0 0 8px; text-wrap: balance; }
-.lede { text-align: center; color: var(--muted); margin: 0 auto 22px; max-width: 640px; text-wrap: balance; }
+.lede { text-align: center; color: var(--muted); margin: 0 auto 22px; max-width: 700px; text-wrap: balance; }
+.stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 56px; margin: 4px auto 30px; }
+.stat { display: flex; flex-direction: column; align-items: center; width: 13em; text-align: center; }
+.stat .big { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 700; line-height: 1.1; color: var(--blue); font-variant-numeric: tabular-nums; }
+.stat .label { font-size: 0.92rem; color: var(--muted); }
+.stat .def { font-size: 0.76rem; color: var(--muted); opacity: 0.85; text-wrap: balance; }
 p { margin: 0 0 14px; }
-.abstract p { text-align: justify; hyphens: auto; }
+.cap { font-size: 0.9rem; color: var(--muted); text-align: center; margin: 10px auto 0; max-width: 760px; text-wrap: balance; }
 
-/* Video slot: replace the inner placeholder with
-   <video src="static/videos/NAME.mp4" autoplay muted loop playsinline></video> */
-.vid { position: relative; aspect-ratio: 16 / 9; max-width: 100%; border-radius: 10px; overflow: hidden; background: var(--slot); }
-.vid video, .vid img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
-.ph { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--slot-fg); text-align: center; padding: 12px; }
-.ph .play { width: 46px; height: 46px; border-radius: 50%; border: 1.5px solid currentColor; display: grid; place-items: center; opacity: 0.8; }
-.ph .play svg { width: 16px; height: 16px; fill: currentColor; margin-left: 3px; }
-.ph .name { font-weight: 600; font-size: 0.95rem; color: var(--slot-fg); }
-.ph .path { font-family: var(--font-mono); font-size: 0.72rem; opacity: 0.65; word-break: break-all; }
-.vid.small .play { width: 36px; height: 36px; }
-.vid.small .name { font-size: 0.85rem; }
+/* Mosaic: one pre-rendered video (scripts/build_media.py), 6 x 4 runs with white gutters */
+.mosaic video { display: block; width: 100%; aspect-ratio: 1920 / 728; background: var(--bg); }
 
-.teaser .vid { border-radius: 12px; }
-.cap { font-size: 0.9rem; color: var(--muted); text-align: center; margin-top: 10px; }
+/* Video slot */
+.vid { position: relative; aspect-ratio: 16 / 9; max-width: 100%; border-radius: 10px; overflow: hidden; background: var(--panel); }
+.vid video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.ph { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: var(--slot-fg); text-align: center; padding: 12px; border: 1.5px dashed var(--line); border-radius: 10px; }
+.ph .play { width: 34px; height: 34px; border-radius: 50%; border: 1.5px solid currentColor; display: grid; place-items: center; opacity: 0.8; }
+.ph .play svg { width: 13px; height: 13px; fill: currentColor; margin-left: 3px; }
+.ph .name { font-weight: 600; font-size: 0.85rem; }
+.ph .path { font-family: var(--font-mono); font-size: 0.68rem; opacity: 0.75; overflow-wrap: anywhere; }
+.speed { position: absolute; top: 8px; right: 8px; font-family: var(--font-mono); font-size: 0.72rem; color: #fff; background: rgba(0,0,0,0.55); border-radius: 4px; padding: 0 6px; }
 
-/* Native vs supervised comparison */
-.compare { display: grid; gap: 28px; }
-.pair-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 10px; }
-.pair-head h3 { margin: 0; font-size: 1.15rem; font-weight: 600; }
-.pair-head .meta { font-size: 0.85rem; color: var(--muted); }
-.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.side { min-width: 0; }
-.tag { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; font-size: 0.88rem; }
-.tag .who { font-weight: 600; }
-.tag .who.native { color: var(--muted); }
-.tag .who.ours { color: var(--blue); }
-.mask { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; margin-left: 6px; font-weight: 400; }
-.clock { font-family: var(--font-mono); font-size: 0.82rem; font-variant-numeric: tabular-nums; color: var(--fg); background: var(--panel); border-radius: 4px; padding: 1px 8px; }
-
-/* Task gallery */
-.gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.tile { min-width: 0; }
-.tile .label { display: flex; justify-content: space-between; gap: 8px; font-size: 0.88rem; margin-top: 7px; }
-.tile .label span:last-child { color: var(--muted); font-size: 0.8rem; }
-
-/* Real robot */
-.real { display: grid; grid-template-columns: 3fr 2fr; gap: 14px; }
-.real .stack { display: grid; gap: 14px; min-width: 0; }
-.real > .vid { aspect-ratio: auto; min-height: 100%; }
-
-@media (max-width: 760px) {
-  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .real { grid-template-columns: 1fr; }
-  .real > .vid { aspect-ratio: 16 / 9; min-height: 0; }
-}
-@media (max-width: 520px) {
-  .pair { grid-template-columns: 1fr; }
-  .gallery { grid-template-columns: 1fr; }
-}
-
-/* Figure */
-.figslot { border: 1.5px dashed var(--line); border-radius: 10px; aspect-ratio: 2.4 / 1; max-width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: var(--muted); background: var(--panel); text-align: center; padding: 12px; }
-.figslot .path { font-family: var(--font-mono); font-size: 0.75rem; }
+/* Figure + intro */
 figure { margin: 0; }
-.method p { text-align: center; color: var(--fg); max-width: 640px; margin: 18px auto 0; text-wrap: pretty; }
+figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 10px; text-align: center; }
+.intro h2 { margin-bottom: 20px; }
+.intro figure { max-width: 936px; margin: 0 auto 24px; }
+.intro img { display: block; width: 100%; height: auto; }
+.intro p { text-align: center; font-size: 1.08rem; text-wrap: balance; }
+
+/* Experiment cards */
+.card { border: 1px solid var(--line); border-radius: 14px; padding: 22px; }
+.card + .card { margin-top: 24px; }
+.card-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; margin-bottom: 14px; }
+.card-head h3 { margin: 0; font-size: 1.3rem; font-weight: 600; }
+.card-head h3 .arrow { color: var(--muted); font-weight: 400; margin: 0 0.25em; }
+.card > p { color: var(--muted); font-size: 0.92rem; margin: -6px 0 14px; }
+.cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.col { min-width: 0; }
+.col h4 { position: relative; margin: 10px 0 4px; font-size: 0.98rem; font-weight: 600; }
+.col h4.ours { color: var(--blue); }
+/* Agent time / tokens under each video: one bar per metric, same scale across all cards */
+.mini { display: grid; grid-template-columns: 3.6em 1fr auto; align-items: center; gap: 4px 8px; font-size: 0.8rem; }
+.mini .lbl { color: var(--muted); }
+.mini .val { font-family: var(--font-mono); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; min-width: 4.6em; }
+.mini .sub { grid-column: 1 / -1; color: var(--muted); font-size: 0.76rem; }
+.track { position: relative; height: 10px; }
+.bar { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 0 4px 4px 0; background: var(--bar-base); }
+.bar.donor { background: #D3D9E1; }
+.bar.ours { background: var(--blue); }
+
+/* "?" note on each method: tooltip spans the column under the heading */
+.q { font: 600 0.62rem/1 var(--font-body); color: var(--muted); background: var(--bg); border: 1px solid var(--muted); border-radius: 50%; width: 1.45em; height: 1.45em; padding: 0; margin-left: 4px; vertical-align: super; cursor: help; }
+.q:hover, .q:focus-visible { color: var(--blue); border-color: var(--blue); }
+.q .tip { display: none; position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 5; text-align: left; font: 400 0.8rem/1.45 var(--font-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 9px 11px; box-shadow: 0 6px 20px rgba(15, 23, 42, 0.12); cursor: auto; }
+.q:hover .tip, .q:focus .tip { display: block; }
+
+.pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill { font-size: 0.85rem; font-weight: 600; border-radius: 999px; padding: 2px 11px; background: var(--panel); color: var(--muted); }
+.pill.good { background: #E4EEF7; color: #2B5F8A; }
+.pill b { font-family: var(--font-mono); font-weight: 600; }
+.notes { font-size: 0.82rem; color: var(--muted); margin: 18px auto 0; max-width: 900px; text-align: center; text-wrap: pretty; }
+
+/* Click a video to enlarge it */
+.vid video { cursor: zoom-in; }
+#zoom { border: 0; padding: 0; background: transparent; width: min(1100px, 94vw); max-width: none; overflow: visible; }
+#zoom::backdrop { background: rgba(15, 23, 42, 0.8); }
+#zoom video { display: block; width: 100%; aspect-ratio: 16 / 9; max-height: 82vh; object-fit: contain; border-radius: 10px; background: #000; }
+#zoom p { color: #fff; text-align: center; font-size: 0.95rem; margin: 10px 0 0; }
+#zoom .close { position: absolute; top: -40px; right: 0; font: 400 1.8rem/1 var(--font-body); color: #fff; background: none; border: 0; cursor: pointer; padding: 4px 8px; }
+
+/* Highlights */
+.hl-cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+
+@media (max-width: 860px) {
+  .cols, .hl-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 480px) {
+  .cols { grid-template-columns: 1fr; }
+  .card { padding: 16px; }
+}
 
 /* BibTeX */
 .bib { position: relative; }
@@ -142,109 +158,81 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
 <!-- Shared play icon -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="play" viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></symbol></svg>
 
-<header class="hero narrow">
-  <h1 class="title"><span class="acr">Faster Agentic Robotics</span><br>with Fewer Tokens</h1>
-  <p class="authors"><span class="pending">Author names pending</span></p>
+<header class="hero wide">
+  <h1 class="title"><span class="acr">FAR:</span> Faster Agentic Robotics<br>with Fewer Tokens</h1>
+  <p class="authors">
+    <span>Mayank Chandak<sup>*</sup></span><span>Shi Chen<sup>*</sup></span><span>Yu-Lun Chou<sup>*</sup></span>
+    <span>Vamsi Grandhi<sup>*</sup></span><span>Mayanka Medhe<sup>*</sup></span><span>Jeff Ichnowski</span>
+  </p>
   <p class="affil">Robotics Institute, Carnegie Mellon University</p>
-  <p class="venue">CoRL 2026 · Late-Breaking</p>
+  <p class="eq"><sup>*</sup>Equal contribution; listed alphabetically by surname.</p>
+  <p class="venue">CoRL 2026 · Late Breaking Results</p>
   <div class="links">
     <a class="btn" aria-disabled="true" role="link" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm-1 7V3.5L18.5 9z"/></svg>Paper</a>
     <a class="btn" aria-disabled="true" role="link" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm3.5 4.5L11 12l-3.5 4.5h2.4L12.2 13.4l2.3 3.1h2.4L13.4 12l3.5-4.5h-2.4L12.2 10.6 9.9 7.5z"/></svg>arXiv</a>
     <a class="btn" aria-disabled="true" role="link" tabindex="-1"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
-    <a class="btn" href="#videos"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#play"/></svg>Videos</a>
+    <a class="btn" href="#transfer"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#play"/></svg>Videos</a>
   </div>
 </header>
 
-<!-- Teaser -->
-<section class="teaser wide" style="padding-block-start: 8px">
-  <div class="vid">
-    <div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Teaser video</div><div class="path">static/videos/teaser.mp4</div></div>
-  </div>
-  <p class="cap">Native agent vs. supervised agent on the same task, played in real time.</p>
+<!-- Mosaic of successful runs (scripts/build_media.py) -->
+<section class="mosaic full" style="padding-block-start: 8px">
+  <video src="static/videos/mosaic.mp4" poster="static/videos/mosaic.jpg" autoplay muted loop playsinline
+         aria-label="24 successful real-robot runs playing at once, from side and wrist cameras"></video>
 </section>
 
-<!-- Abstract -->
-<section class="abstract narrow">
-  <h2>Abstract</h2>
-  <p>Robot code agents can already reuse programs and run local checks without another model call. Does a separate supervisor still make them faster at the same independently measured performance? We test Jev as a supervisor for two decisions, skill reuse and reasoning effort, with outcome/recovery supervision as a later stage. Elapsed time, including failed runs, is the primary measure; tokens and API cost are secondary.</p>
-</section>
-
-<!-- Method figure -->
-<section class="method wide">
+<!-- Paper figure + short intro (paper: Introduction) -->
+<section class="intro">
   <h2>Method</h2>
   <figure>
-    <div class="figslot"><strong>Main paper figure</strong><span class="path">static/images/method.png</span></div>
+    <img src="static/images/method.png" width="936" height="325" alt="FAR method: retain useful code from earlier tasks in a skill library, adapt it to the new task with a code agent, then execute and refine on the robot or simulator. Examples: coffee setup to apple-to-sink in simulation, 2 to 3 cups and a 3-cup library to 5 or 6 cups on the Kinova, and observed depth to placing a cap on a branch.">
+    <figcaption><strong>Reuse components; adapt the task.</strong> Earlier code (blue) supports new task logic (orange).</figcaption>
   </figure>
-  <p>The supervisor proposes which library skill to reuse and how much reasoning to spend. Common code enforces the rules, and a disabled gate falls back to the native planner.</p>
+  <p class="narrow">A coding agent must program a robot for a new task, such as building a six-cup pyramid. We let it start from code written for an earlier task, such as building a three-cup pyramid, instead of from scratch.</p>
 </section>
 
-<!-- Videos -->
-<section id="videos" class="wide">
-  <h2>Native vs. Supervised</h2>
-  <p class="lede">Each pair runs the same task from the same scene. Clocks show failure-inclusive elapsed time.</p>
-  <div class="compare">
-    <div>
-      <div class="pair-head"><h3>Coffee</h3><span class="meta">EFE · live</span></div>
-      <div class="pair">
-        <div class="side">
-          <div class="vid"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Native</div><div class="path">static/videos/coffee_native.mp4</div></div></div>
-          <div class="tag"><span class="who native">Native<span class="mask">000</span></span><span class="clock">— s</span></div>
-        </div>
-        <div class="side">
-          <div class="vid"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Supervised</div><div class="path">static/videos/coffee_ours.mp4</div></div></div>
-          <div class="tag"><span class="who ours">Supervised<span class="mask">110</span></span><span class="clock">— s</span></div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="pair-head"><h3>Apple counter-to-sink</h3><span class="meta">EFE · skill transfer</span></div>
-      <div class="pair">
-        <div class="side">
-          <div class="vid"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Native</div><div class="path">static/videos/apple_native.mp4</div></div></div>
-          <div class="tag"><span class="who native">Native<span class="mask">000</span></span><span class="clock">— s</span></div>
-        </div>
-        <div class="side">
-          <div class="vid"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Supervised</div><div class="path">static/videos/apple_ours.mp4</div></div></div>
-          <div class="tag"><span class="who ours">Supervised<span class="mask">110</span></span><span class="clock">— s</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Physical transfer: cards rendered from static/data/experiments.json -->
+<section id="transfer" class="wide">
+  <h2>Physical Transfer</h2>
+  <p class="lede">We give a fresh agent each new task and start it either from scratch (baseline) or from earlier task code (ours).</p>
+  <div class="stats" id="stats"></div>
+  <div id="cards"></div>
+  <p class="notes">Agent time excludes robot execution and operator waits; tokens include cache. Values are means over seeds. Videos play at 4×; click to enlarge.</p>
 </section>
 
-<section class="wide">
-  <h2>Task Gallery</h2>
-  <p class="lede">Rollouts of the supervised agent across Embodied First Exam tasks.</p>
-  <div class="gallery">
-    <div class="tile"><div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/task_01.mp4</div></div></div><div class="label"><span>Coffee</span><span>live</span></div></div>
-    <div class="tile"><div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/task_02.mp4</div></div></div><div class="label"><span>Apple counter-to-sink</span><span>live</span></div></div>
-    <div class="tile"><div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/task_03.mp4</div></div></div><div class="label"><span>Task 3</span><span>live</span></div></div>
-    <div class="tile"><div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/task_04.mp4</div></div></div><div class="label"><span>Task 4</span><span>live</span></div></div>
-    <div class="tile"><div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/task_05.mp4</div></div></div><div class="label"><span>Task 5</span><span>sealed policy</span></div></div>
-    <div class="tile"><div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/task_06.mp4</div></div></div><div class="label"><span>Task 6</span><span>sealed policy</span></div></div>
-  </div>
-</section>
-
-<section class="wide">
-  <h2>Real Robot</h2>
-  <p class="lede">Kinova arm, real-world runs.</p>
-  <div class="real">
-    <div class="vid"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Kinova main run</div><div class="path">static/videos/kinova_main.mp4</div></div></div>
-    <div class="stack">
-      <div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Kinova run 2</div><div class="path">static/videos/kinova_2.mp4</div></div></div>
-      <div class="vid small"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="name">Kinova run 3</div><div class="path">static/videos/kinova_3.mp4</div></div></div>
+<!-- Highlights: drop videos at the listed paths and they replace the placeholders -->
+<section id="highlights" class="wide">
+  <h2>Highlights</h2>
+  <article class="card">
+    <div class="card-head"><h3>Highlight 1: observation title</h3></div>
+    <p>One sentence on what to notice.</p>
+    <div class="hl-cols">
+      <div class="vid" data-optional="static/videos/highlight1_a.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_a.mp4</div></div></div>
+      <div class="vid" data-optional="static/videos/highlight1_b.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_b.mp4</div></div></div>
+      <div class="vid" data-optional="static/videos/highlight1_c.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_c.mp4</div></div></div>
+      <div class="vid" data-optional="static/videos/highlight1_d.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_d.mp4</div></div></div>
     </div>
-  </div>
+  </article>
+  <article class="card">
+    <div class="card-head"><h3>Highlight 2: observation title</h3></div>
+    <p>One sentence on what to notice.</p>
+    <div class="hl-cols">
+      <div class="vid" data-optional="static/videos/highlight2_a.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_a.mp4</div></div></div>
+      <div class="vid" data-optional="static/videos/highlight2_b.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_b.mp4</div></div></div>
+      <div class="vid" data-optional="static/videos/highlight2_c.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_c.mp4</div></div></div>
+      <div class="vid" data-optional="static/videos/highlight2_d.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_d.mp4</div></div></div>
+    </div>
+  </article>
 </section>
 
 <section class="narrow">
   <h2>BibTeX</h2>
   <div class="bib" style="margin-top: 16px">
     <button class="copy" id="copy-bib" type="button">Copy</button>
-<pre id="bibtex">@inproceedings{fasteragentic2026,
-  title     = {Faster Agentic Robotics with Fewer Tokens},
-  author    = {TBD and Ichnowski, Jeffrey},
-  booktitle = {Conference on Robot Learning (CoRL), Late-Breaking},
+<pre id="bibtex">@inproceedings{far2026,
+  title     = {{FAR}: Faster Agentic Robotics with Fewer Tokens},
+  author    = {Chandak, Mayank and Chen, Shi and Chou, Yu-Lun and Grandhi, Vamsi and Medhe, Mayanka and Ichnowski, Jeff},
+  booktitle = {Conference on Robot Learning (CoRL), Late Breaking Results},
   year      = {2026}
 }</pre>
   </div>
@@ -254,7 +242,124 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
   Page layout adapted from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page template (CC BY-SA 4.0).
 </footer>
 
+<dialog id="zoom" aria-label="Enlarged video">
+  <button class="close" type="button" aria-label="Close">×</button>
+  <video controls muted loop playsinline></video>
+  <p></p>
+</dialog>
+
 <script>
+// One-line definitions for the "?" on each column.
+var TIPS = {
+  donor: 'The earlier task that produced the reusable code.',
+  baseline: 'The new task, programmed from scratch.',
+  reuse: 'Ours: the recipient (the new task), programmed starting from the donor\'s skills.',
+  terminal: 'The skill-reuse agent\'s terminal session.'
+};
+
+function q(key, name) {
+  return '<button class="q" type="button" aria-label="What is ' + name + '?">?<span class="tip" role="tooltip">' + TIPS[key] + '</span></button>';
+}
+function slot(path, name, label) {
+  return '<div class="vid" data-optional="' + path + '" data-label="' + (label || '') + '"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div>' +
+    (name ? '<div class="name">' + name + '</div>' : '') + '<div class="path">' + path + '</div></div></div>';
+}
+function pill(x, what) { return '<span class="pill' + (x < 0 ? ' good' : '') + '"><b>' + pct(x) + '</b> ' + what + '</span>'; }
+function pct(x) { return (x > 0 ? '+' : '−') + Math.round(Math.abs(x) * 100) + '%'; }
+
+function render(F) {
+  var exps = F.experiments, speed = F.speed;
+  var all = function (k) { return exps.reduce(function (m, e) {
+    return Math.max(m, e.donor[k], e.baseline[k], e.reuse[k]); }, 0); };
+  var max = { minutes: Math.ceil(all('minutes') / 5) * 5, tokens_m: Math.ceil(all('tokens_m') / 5) * 5 };
+
+  var faster = exps.filter(function (e) { return e.change.minutes < 0; }).length;
+  var tile = function (big, label, def) { return '<div class="stat"><span class="big">' + big + '</span><span class="label">' + label + '</span>' + (def ? '<span class="def">' + def + '</span>' : '') + '</div>'; };
+  document.getElementById('stats').innerHTML =
+    tile(pct(F.mean_change.minutes), 'agent time', 'agent working time, robot execution excluded') +
+    tile(pct(F.mean_change.tokens), 'model tokens') +
+    tile(faster + '/' + exps.length, 'transfers faster than baseline');
+
+  function vid(c, label) {
+    return '<div class="vid" data-label="' + label + '"><video data-src="' + c.video + '" poster="' + c.poster + '" muted loop playsinline preload="none"></video><span class="speed">' + speed + '×</span></div>';
+  }
+  // Agent time and tokens as bars on the shared scale; hover a bar for per-seed values.
+  function bars(s, kind, note) {
+    var row = function (k, lbl, txt) {
+      var seeds = s.seeds.map(function (t) { return 'seed ' + t.seed + ': ' + (k === 'minutes' ? t[k].toFixed(1) + ' min' : t[k].toFixed(2) + 'M'); }).join(', ');
+      return '<span class="lbl">' + lbl + '</span><div class="track" title="' + seeds + '"><div class="bar ' + kind + '" style="width:' +
+        (100 * s[k] / max[k]).toFixed(1) + '%"></div></div><span class="val">' + txt + '</span>';
+    };
+    return '<div class="mini" role="img" aria-label="Agent time ' + s.minutes.toFixed(1) + ' minutes, ' + s.tokens_m.toFixed(2) + ' million tokens">' +
+      row('minutes', 'Time', s.minutes.toFixed(1) + ' min') + row('tokens_m', 'Tokens', s.tokens_m.toFixed(2) + 'M') +
+      (note ? '<span class="sub">' + note + '</span>' : '') + '</div>';
+  }
+  function seedsNote(s) { return s.seeds.length > 1 ? 'mean of ' + s.seeds.length + ' seeds' : '1 seed'; }
+
+  document.getElementById('cards').innerHTML = exps.map(function (e) {
+    var title = e.source + ' ⇒ ' + e.target;
+    return '<article class="card" id="' + e.id + '">' +
+      '<div class="card-head"><h3>' + e.source + '<span class="arrow">⇒</span>' + e.target + '</h3>' +
+      '<span class="pills">' + pill(e.change.minutes, 'agent time') + pill(e.change.tokens, 'tokens') + '</span></div>' +
+      '<div class="cols">' +
+        '<div class="col">' + vid(e.clips.donor, title + ' · Donor') + '<h4>Donor' + q('donor', 'the donor') + '</h4>' + bars(e.donor, 'donor') + '</div>' +
+        '<div class="col">' + vid(e.clips.baseline, title + ' · Baseline') + '<h4>Baseline' + q('baseline', 'the baseline') + '</h4>' + bars(e.baseline, '', seedsNote(e.baseline)) + '</div>' +
+        '<div class="col">' + vid(e.clips.reuse, title + ' · Skill reuse') + '<h4 class="ours">Skill reuse' + q('reuse', 'skill reuse') + '</h4>' + bars(e.reuse, 'ours', seedsNote(e.reuse)) + '</div>' +
+        '<div class="col">' + slot(e.terminal, 'Agent terminal', title + ' · Terminal') + '<h4>Terminal' + q('terminal', 'the terminal') + '</h4><div class="mini"><span class="sub">Coming soon.</span></div></div>' +
+      '</div>' +
+      '</article>';
+  }).join('');
+}
+// Load and play videos only while on screen. data-optional slots keep their placeholder
+// until a video exists at that path.
+function watchVideos() {
+  function start(el) {
+    if (el.tagName === 'VIDEO') {
+      if (!el.src) el.src = el.dataset.src;
+      el.play().catch(function () {});
+      return;
+    }
+    if (el.dataset.tried) { var v = el.querySelector('video'); if (v) v.play().catch(function () {}); return; }
+    el.dataset.tried = '1';
+    var v = document.createElement('video');
+    v.muted = true; v.loop = true; v.playsInline = true; v.style.display = 'none';
+    v.addEventListener('loadeddata', function () { el.querySelector('.ph').remove(); v.style.display = ''; v.play().catch(function () {}); });
+    v.src = el.dataset.optional;
+    el.appendChild(v);
+  }
+  function stop(el) { var v = el.tagName === 'VIDEO' ? el : el.querySelector('video'); if (v) v.pause(); }
+  var els = document.querySelectorAll('video[data-src], [data-optional]');
+  if (!('IntersectionObserver' in window)) { els.forEach(start); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { e.isIntersecting ? start(e.target) : stop(e.target); });
+  }, { rootMargin: '200px' });
+  els.forEach(function (el) { io.observe(el); });
+}
+
+// no-cache: revalidate on every load so a rebuilt experiments.json is never shadowed by a cached copy.
+fetch('static/data/experiments.json', { cache: 'no-cache' })
+  .then(function (r) { return r.json(); })
+  .then(function (F) { render(F); watchVideos(); })
+  .catch(function () {
+    document.getElementById('cards').textContent = 'Could not load static/data/experiments.json (open the page through a web server, not file://).';
+    watchVideos();
+  });
+
+// Click a video to see it larger.
+(function () {
+  var dlg = document.getElementById('zoom'), big = dlg.querySelector('video');
+  document.addEventListener('click', function (ev) {
+    var v = ev.target.closest('.vid') && ev.target.closest('.vid').querySelector('video');
+    if (!v || !(v.src || v.dataset.src) || !dlg.showModal) return;
+    big.src = v.src || v.dataset.src;
+    dlg.querySelector('p').textContent = v.closest('.vid').dataset.label || '';
+    dlg.showModal();
+    big.play().catch(function () {});
+  });
+  dlg.addEventListener('click', function (ev) { if (ev.target === dlg || ev.target.closest('.close')) dlg.close(); });
+  dlg.addEventListener('close', function () { big.pause(); big.removeAttribute('src'); big.load(); });
+})();
+
 document.getElementById('copy-bib').addEventListener('click', function () {
   var btn = this, text = document.getElementById('bibtex').textContent;
   function done(msg) { btn.textContent = msg; setTimeout(function () { btn.textContent = 'Copy'; }, 1600); }

@@ -1,0 +1,674 @@
+{
+ "speed": 4,
+ "mean_change": {
+  "minutes": -0.3987,
+  "tokens": -0.2343
+ },
+ "experiments": [
+  {
+   "id": "2up_to_2down",
+   "source": "Nest 2 upright cups",
+   "target": "Stack 2 inverted cups",
+   "robot": "kinova_a",
+   "clips": {
+    "donor": {
+     "video": "static/videos/2up_to_2down_donor.mp4",
+     "poster": "static/videos/2up_to_2down_donor.jpg",
+     "seed": "4",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 51
+    },
+    "baseline": {
+     "video": "static/videos/2up_to_2down_baseline.mp4",
+     "poster": "static/videos/2up_to_2down_baseline.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 72
+    },
+    "reuse": {
+     "video": "static/videos/2up_to_2down_reuse.mp4",
+     "poster": "static/videos/2up_to_2down_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 65
+    }
+   },
+   "donor": {
+    "minutes": 17.7,
+    "tokens_m": 5.4,
+    "seeds": [
+     {
+      "seed": "4",
+      "robot": "kinova_a",
+      "minutes": 17.7,
+      "tokens_m": 5.4,
+      "attempts": 1,
+      "successes": 1
+     }
+    ]
+   },
+   "baseline": {
+    "minutes": 24.4,
+    "tokens_m": 8.13,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 22.3,
+      "tokens_m": 6.19,
+      "attempts": 1,
+      "successes": 1
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 25.0,
+      "tokens_m": 11.57,
+      "attempts": 4,
+      "successes": 1
+     },
+     {
+      "seed": "3",
+      "robot": "kinova_b",
+      "minutes": 20.5,
+      "tokens_m": 8.6,
+      "attempts": 6,
+      "successes": 1
+     },
+     {
+      "seed": "4",
+      "robot": "kinova_b",
+      "minutes": 29.9,
+      "tokens_m": 6.18,
+      "attempts": 2,
+      "successes": 1
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 11.7,
+    "tokens_m": 4.76,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 14.3,
+      "tokens_m": 5.11,
+      "attempts": 1,
+      "successes": 1
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 9.0,
+      "tokens_m": 4.41,
+      "attempts": 1,
+      "successes": 1
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.523,
+    "tokens": -0.4149
+   },
+   "terminal": "static/videos/2up_to_2down_terminal.mp4"
+  },
+  {
+   "id": "2down_to_2up",
+   "source": "Stack 2 inverted cups",
+   "target": "Nest 2 upright cups",
+   "robot": "kinova_b",
+   "clips": {
+    "donor": {
+     "video": "static/videos/2down_to_2up_donor.mp4",
+     "poster": "static/videos/2down_to_2up_donor.jpg",
+     "seed": "4",
+     "attempt": "2",
+     "robot": "kinova_b",
+     "robot_s": 42
+    },
+    "baseline": {
+     "video": "static/videos/2down_to_2up_baseline.mp4",
+     "poster": "static/videos/2down_to_2up_baseline.jpg",
+     "seed": "5",
+     "attempt": "1",
+     "robot": "kinova_b",
+     "robot_s": 61
+    },
+    "reuse": {
+     "video": "static/videos/2down_to_2up_reuse.mp4",
+     "poster": "static/videos/2down_to_2up_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_b",
+     "robot_s": 57
+    }
+   },
+   "donor": {
+    "minutes": 29.9,
+    "tokens_m": 6.18,
+    "seeds": [
+     {
+      "seed": "4",
+      "robot": "kinova_b",
+      "minutes": 29.9,
+      "tokens_m": 6.18,
+      "attempts": 2,
+      "successes": 1
+     }
+    ]
+   },
+   "baseline": {
+    "minutes": 22.0,
+    "tokens_m": 4.71,
+    "seeds": [
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 16.9,
+      "tokens_m": 4.56,
+      "attempts": 1,
+      "successes": 1
+     },
+     {
+      "seed": "4",
+      "robot": "kinova_a",
+      "minutes": 17.7,
+      "tokens_m": 5.4,
+      "attempts": 1,
+      "successes": 1
+     },
+     {
+      "seed": "5",
+      "robot": "kinova_b",
+      "minutes": 27.9,
+      "tokens_m": 4.34,
+      "attempts": 1,
+      "successes": 1
+     },
+     {
+      "seed": "7",
+      "robot": "kinova_b",
+      "minutes": 25.6,
+      "tokens_m": 4.55,
+      "attempts": 1,
+      "successes": 1
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 19.7,
+    "tokens_m": 6.2,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 16.3,
+      "tokens_m": 3.43,
+      "attempts": 1,
+      "successes": 1
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_b",
+      "minutes": 23.1,
+      "tokens_m": 8.97,
+      "attempts": 6,
+      "successes": 1
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.1056,
+    "tokens": 0.3155
+   },
+   "terminal": "static/videos/2down_to_2up_terminal.mp4"
+  },
+  {
+   "id": "2_to_3cups",
+   "source": "Stack 2 inverted cups",
+   "target": "Build 3-cup pyramid",
+   "robot": "kinova_a",
+   "clips": {
+    "donor": {
+     "video": "static/videos/2_to_3cups_donor.mp4",
+     "poster": "static/videos/2_to_3cups_donor.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 72
+    },
+    "baseline": {
+     "video": "static/videos/2_to_3cups_baseline.mp4",
+     "poster": "static/videos/2_to_3cups_baseline.jpg",
+     "seed": "1",
+     "attempt": "2",
+     "robot": "kinova_a",
+     "robot_s": 105
+    },
+    "reuse": {
+     "video": "static/videos/2_to_3cups_reuse.mp4",
+     "poster": "static/videos/2_to_3cups_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 76
+    }
+   },
+   "donor": {
+    "minutes": 22.3,
+    "tokens_m": 6.19,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 22.3,
+      "tokens_m": 6.19,
+      "attempts": 1,
+      "successes": 1
+     }
+    ]
+   },
+   "baseline": {
+    "minutes": 18.9,
+    "tokens_m": 6.17,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 18.3,
+      "tokens_m": 6.17,
+      "attempts": 4,
+      "successes": 3
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 19.4,
+      "tokens_m": 6.17,
+      "attempts": 4,
+      "successes": 3
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 11.1,
+    "tokens_m": 6.23,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 13.1,
+      "tokens_m": 6.9,
+      "attempts": 7,
+      "successes": 3
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 9.1,
+      "tokens_m": 5.56,
+      "attempts": 5,
+      "successes": 3
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.4111,
+    "tokens": 0.0087
+   },
+   "terminal": "static/videos/2_to_3cups_terminal.mp4"
+  },
+  {
+   "id": "3to5cups",
+   "source": "Build 3-cup pyramid",
+   "target": "Build 5-cup pyramid",
+   "robot": "kinova_a",
+   "clips": {
+    "donor": {
+     "video": "static/videos/3to5cups_donor.mp4",
+     "poster": "static/videos/3to5cups_donor.jpg",
+     "seed": "1",
+     "attempt": "4",
+     "robot": "kinova_a",
+     "robot_s": 104
+    },
+    "baseline": {
+     "video": "static/videos/3to5cups_baseline.mp4",
+     "poster": "static/videos/3to5cups_baseline.jpg",
+     "seed": "1",
+     "attempt": "3",
+     "robot": "kinova_a",
+     "robot_s": 162
+    },
+    "reuse": {
+     "video": "static/videos/3to5cups_reuse.mp4",
+     "poster": "static/videos/3to5cups_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 166
+    }
+   },
+   "donor": {
+    "minutes": 18.3,
+    "tokens_m": 6.17,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 18.3,
+      "tokens_m": 6.17,
+      "attempts": 4,
+      "successes": 3
+     }
+    ]
+   },
+   "baseline": {
+    "minutes": 28.6,
+    "tokens_m": 10.51,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 30.5,
+      "tokens_m": 11.64,
+      "attempts": 7,
+      "successes": 3
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 26.6,
+      "tokens_m": 9.38,
+      "attempts": 5,
+      "successes": 3
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 11.1,
+    "tokens_m": 6.18,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 7.7,
+      "tokens_m": 4.88,
+      "attempts": 3,
+      "successes": 3
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 14.5,
+      "tokens_m": 7.49,
+      "attempts": 5,
+      "successes": 3
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.6112,
+    "tokens": -0.4117
+   },
+   "terminal": "static/videos/3to5cups_terminal.mp4"
+  },
+  {
+   "id": "3to6cups",
+   "source": "Build 3-cup pyramid",
+   "target": "Build 6-cup pyramid",
+   "robot": "kinova_a",
+   "clips": {
+    "donor": {
+     "video": "static/videos/3to6cups_donor.mp4",
+     "poster": "static/videos/3to6cups_donor.jpg",
+     "seed": "1",
+     "attempt": "4",
+     "robot": "kinova_a",
+     "robot_s": 104
+    },
+    "baseline": {
+     "video": "static/videos/3to6cups_baseline.mp4",
+     "poster": "static/videos/3to6cups_baseline.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 114
+    },
+    "reuse": {
+     "video": "static/videos/3to6cups_reuse.mp4",
+     "poster": "static/videos/3to6cups_reuse.jpg",
+     "seed": "1",
+     "attempt": "4",
+     "robot": "kinova_a",
+     "robot_s": 256
+    }
+   },
+   "donor": {
+    "minutes": 18.3,
+    "tokens_m": 6.17,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 18.3,
+      "tokens_m": 6.17,
+      "attempts": 4,
+      "successes": 3
+     }
+    ]
+   },
+   "baseline": {
+    "minutes": 32.2,
+    "tokens_m": 13.62,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 32.2,
+      "tokens_m": 13.62,
+      "attempts": 5,
+      "successes": 3
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 14.6,
+    "tokens_m": 7.79,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 14.6,
+      "tokens_m": 7.79,
+      "attempts": 5,
+      "successes": 3
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.5466,
+    "tokens": -0.4277
+   },
+   "terminal": "static/videos/3to6cups_terminal.mp4"
+  },
+  {
+   "id": "cap_to_cup_holder",
+   "source": "Hang cap on branch",
+   "target": "Cup on wooden finger",
+   "robot": "kinova_b",
+   "clips": {
+    "donor": {
+     "video": "static/videos/cap_to_cup_holder_donor.mp4",
+     "poster": "static/videos/cap_to_cup_holder_donor.jpg",
+     "seed": "1",
+     "attempt": "4",
+     "robot": "kinova_b",
+     "robot_s": 159
+    },
+    "baseline": {
+     "video": "static/videos/cap_to_cup_holder_baseline.mp4",
+     "poster": "static/videos/cap_to_cup_holder_baseline.jpg",
+     "seed": "2",
+     "attempt": "5",
+     "robot": "kinova_b",
+     "robot_s": 89
+    },
+    "reuse": {
+     "video": "static/videos/cap_to_cup_holder_reuse.mp4",
+     "poster": "static/videos/cap_to_cup_holder_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_b",
+     "robot_s": 178
+    }
+   },
+   "donor": {
+    "minutes": 32.3,
+    "tokens_m": 11.22,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 32.3,
+      "tokens_m": 11.22,
+      "attempts": 3,
+      "successes": 3
+     }
+    ]
+   },
+   "baseline": {
+    "minutes": 40.7,
+    "tokens_m": 18.21,
+    "seeds": [
+     {
+      "seed": "2",
+      "robot": "kinova_b",
+      "minutes": 41.7,
+      "tokens_m": 23.65,
+      "attempts": 8,
+      "successes": 3
+     },
+     {
+      "seed": "3",
+      "robot": "kinova_b",
+      "minutes": 39.6,
+      "tokens_m": 12.76,
+      "attempts": 6,
+      "successes": 3
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 21.6,
+    "tokens_m": 10.07,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 21.6,
+      "tokens_m": 10.07,
+      "attempts": 2,
+      "successes": 3
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.4686,
+    "tokens": -0.4466
+   },
+   "terminal": "static/videos/cap_to_cup_holder_terminal.mp4"
+  },
+  {
+   "id": "cup_to_cap_holder",
+   "source": "Cup on wooden finger",
+   "target": "Hang cap on branch",
+   "robot": "kinova_b",
+   "clips": {
+    "donor": {
+     "video": "static/videos/cup_to_cap_holder_donor.mp4",
+     "poster": "static/videos/cup_to_cap_holder_donor.jpg",
+     "seed": "2",
+     "attempt": "8",
+     "robot": "kinova_b",
+     "robot_s": 90
+    },
+    "baseline": {
+     "video": "static/videos/cup_to_cap_holder_baseline.mp4",
+     "poster": "static/videos/cup_to_cap_holder_baseline.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_b",
+     "robot_s": 165
+    },
+    "reuse": {
+     "video": "static/videos/cup_to_cap_holder_reuse.mp4",
+     "poster": "static/videos/cup_to_cap_holder_reuse.jpg",
+     "seed": "1",
+     "attempt": "2",
+     "robot": "kinova_b",
+     "robot_s": 124
+    }
+   },
+   "donor": {
+    "minutes": 41.7,
+    "tokens_m": 23.65,
+    "seeds": [
+     {
+      "seed": "2",
+      "robot": "kinova_b",
+      "minutes": 41.7,
+      "tokens_m": 23.65,
+      "attempts": 8,
+      "successes": 3
+     }
+    ]
+   },
+   "baseline": {
+    "minutes": 34.1,
+    "tokens_m": 15.05,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 32.3,
+      "tokens_m": 11.22,
+      "attempts": 3,
+      "successes": 3
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_b",
+      "minutes": 36.0,
+      "tokens_m": 18.89,
+      "attempts": 7,
+      "successes": 3
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 29.9,
+    "tokens_m": 11.08,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 29.9,
+      "tokens_m": 11.08,
+      "attempts": 4,
+      "successes": 3
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.1245,
+    "tokens": -0.2637
+   },
+   "terminal": "static/videos/cup_to_cap_holder_terminal.mp4"
+  }
+ ]
+}
