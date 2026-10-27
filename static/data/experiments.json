@@ -1,8 +1,8 @@
 {
  "speed": 4,
  "mean_change": {
-  "minutes": -0.3987,
-  "tokens": -0.2343
+  "tokens": -0.34,
+  "minutes": -0.46
  },
  "experiments": [
   {
@@ -37,54 +37,27 @@
     }
    },
    "donor": {
+    "seed": "4",
+    "robot": "kinova_a",
     "minutes": 17.7,
     "tokens_m": 5.4,
-    "seeds": [
-     {
-      "seed": "4",
-      "robot": "kinova_a",
-      "minutes": 17.7,
-      "tokens_m": 5.4,
-      "attempts": 1,
-      "successes": 1
-     }
-    ]
+    "seeds": []
    },
    "baseline": {
-    "minutes": 24.4,
-    "tokens_m": 8.13,
+    "minutes": 23.7,
+    "tokens_m": 8.88,
     "seeds": [
      {
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 22.3,
-      "tokens_m": 6.19,
-      "attempts": 1,
-      "successes": 1
+      "tokens_m": 6.19
      },
      {
       "seed": "2",
       "robot": "kinova_a",
       "minutes": 25.0,
-      "tokens_m": 11.57,
-      "attempts": 4,
-      "successes": 1
-     },
-     {
-      "seed": "3",
-      "robot": "kinova_b",
-      "minutes": 20.5,
-      "tokens_m": 8.6,
-      "attempts": 6,
-      "successes": 1
-     },
-     {
-      "seed": "4",
-      "robot": "kinova_b",
-      "minutes": 29.9,
-      "tokens_m": 6.18,
-      "attempts": 2,
-      "successes": 1
+      "tokens_m": 11.57
      }
     ]
    },
@@ -96,23 +69,19 @@
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 14.3,
-      "tokens_m": 5.11,
-      "attempts": 1,
-      "successes": 1
+      "tokens_m": 5.11
      },
      {
       "seed": "2",
       "robot": "kinova_a",
       "minutes": 9.0,
-      "tokens_m": 4.41,
-      "attempts": 1,
-      "successes": 1
+      "tokens_m": 4.41
      }
     ]
    },
    "change": {
-    "minutes": -0.523,
-    "tokens": -0.4149
+    "minutes": -0.51,
+    "tokens": -0.46
    },
    "terminal": {
     "video": "static/videos/2up_to_2down_terminal.mp4",
@@ -153,54 +122,27 @@
     }
    },
    "donor": {
+    "seed": "4",
+    "robot": "kinova_b",
     "minutes": 29.9,
     "tokens_m": 6.18,
-    "seeds": [
-     {
-      "seed": "4",
-      "robot": "kinova_b",
-      "minutes": 29.9,
-      "tokens_m": 6.18,
-      "attempts": 2,
-      "successes": 1
-     }
-    ]
+    "seeds": []
    },
    "baseline": {
-    "minutes": 22.0,
-    "tokens_m": 4.71,
+    "minutes": 26.8,
+    "tokens_m": 4.45,
     "seeds": [
-     {
-      "seed": "2",
-      "robot": "kinova_a",
-      "minutes": 16.9,
-      "tokens_m": 4.56,
-      "attempts": 1,
-      "successes": 1
-     },
-     {
-      "seed": "4",
-      "robot": "kinova_a",
-      "minutes": 17.7,
-      "tokens_m": 5.4,
-      "attempts": 1,
-      "successes": 1
-     },
      {
       "seed": "5",
       "robot": "kinova_b",
       "minutes": 27.9,
-      "tokens_m": 4.34,
-      "attempts": 1,
-      "successes": 1
+      "tokens_m": 4.34
      },
      {
       "seed": "7",
       "robot": "kinova_b",
       "minutes": 25.6,
-      "tokens_m": 4.55,
-      "attempts": 1,
-      "successes": 1
+      "tokens_m": 4.55
      }
     ]
    },
@@ -212,23 +154,19 @@
       "seed": "1",
       "robot": "kinova_b",
       "minutes": 16.3,
-      "tokens_m": 3.43,
-      "attempts": 1,
-      "successes": 1
+      "tokens_m": 3.43
      },
      {
       "seed": "2",
       "robot": "kinova_b",
       "minutes": 23.1,
-      "tokens_m": 8.97,
-      "attempts": 6,
-      "successes": 1
+      "tokens_m": 8.97
      }
     ]
    },
    "change": {
-    "minutes": -0.1056,
-    "tokens": 0.3155
+    "minutes": -0.26,
+    "tokens": 0.39
    },
    "terminal": {
     "video": "static/videos/2down_to_2up_terminal.mp4",
@@ -269,18 +207,11 @@
     }
    },
    "donor": {
+    "seed": "1",
+    "robot": "kinova_a",
     "minutes": 22.3,
     "tokens_m": 6.19,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_a",
-      "minutes": 22.3,
-      "tokens_m": 6.19,
-      "attempts": 1,
-      "successes": 1
-     }
-    ]
+    "seeds": []
    },
    "baseline": {
     "minutes": 18.9,
@@ -290,17 +221,13 @@
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 18.3,
-      "tokens_m": 6.17,
-      "attempts": 4,
-      "successes": 3
+      "tokens_m": 6.17
      },
      {
       "seed": "2",
       "robot": "kinova_a",
       "minutes": 19.4,
-      "tokens_m": 6.17,
-      "attempts": 4,
-      "successes": 3
+      "tokens_m": 6.17
      }
     ]
    },
@@ -312,23 +239,19 @@
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 13.1,
-      "tokens_m": 6.9,
-      "attempts": 7,
-      "successes": 3
+      "tokens_m": 6.9
      },
      {
       "seed": "2",
       "robot": "kinova_a",
       "minutes": 9.1,
-      "tokens_m": 5.56,
-      "attempts": 5,
-      "successes": 3
+      "tokens_m": 5.56
      }
     ]
    },
    "change": {
-    "minutes": -0.4111,
-    "tokens": 0.0087
+    "minutes": -0.41,
+    "tokens": 0.01
    },
    "terminal": null
   },
@@ -364,18 +287,11 @@
     }
    },
    "donor": {
+    "seed": "1",
+    "robot": "kinova_a",
     "minutes": 18.3,
     "tokens_m": 6.17,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_a",
-      "minutes": 18.3,
-      "tokens_m": 6.17,
-      "attempts": 4,
-      "successes": 3
-     }
-    ]
+    "seeds": []
    },
    "baseline": {
     "minutes": 28.6,
@@ -385,17 +301,13 @@
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 30.5,
-      "tokens_m": 11.64,
-      "attempts": 7,
-      "successes": 3
+      "tokens_m": 11.64
      },
      {
       "seed": "2",
       "robot": "kinova_a",
       "minutes": 26.6,
-      "tokens_m": 9.38,
-      "attempts": 5,
-      "successes": 3
+      "tokens_m": 9.38
      }
     ]
    },
@@ -407,23 +319,19 @@
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 7.7,
-      "tokens_m": 4.88,
-      "attempts": 3,
-      "successes": 3
+      "tokens_m": 4.88
      },
      {
       "seed": "2",
       "robot": "kinova_a",
       "minutes": 14.5,
-      "tokens_m": 7.49,
-      "attempts": 5,
-      "successes": 3
+      "tokens_m": 7.49
      }
     ]
    },
    "change": {
-    "minutes": -0.6112,
-    "tokens": -0.4117
+    "minutes": -0.61,
+    "tokens": -0.41
    },
    "terminal": null
   },
@@ -459,18 +367,11 @@
     }
    },
    "donor": {
+    "seed": "1",
+    "robot": "kinova_a",
     "minutes": 18.3,
     "tokens_m": 6.17,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_a",
-      "minutes": 18.3,
-      "tokens_m": 6.17,
-      "attempts": 4,
-      "successes": 3
-     }
-    ]
+    "seeds": []
    },
    "baseline": {
     "minutes": 32.2,
@@ -480,9 +381,7 @@
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 32.2,
-      "tokens_m": 13.62,
-      "attempts": 5,
-      "successes": 3
+      "tokens_m": 13.62
      }
     ]
    },
@@ -494,15 +393,74 @@
       "seed": "1",
       "robot": "kinova_a",
       "minutes": 14.6,
-      "tokens_m": 7.79,
-      "attempts": 5,
-      "successes": 3
+      "tokens_m": 7.79
      }
     ]
    },
    "change": {
-    "minutes": -0.5466,
-    "tokens": -0.4277
+    "minutes": -0.55,
+    "tokens": -0.43
+   },
+   "terminal": null
+  },
+  {
+   "id": "3to6cups_random",
+   "source": "Build 3-cup pyramid",
+   "target": "Build 6-cup pyramid (random)",
+   "robot": "kinova_a",
+   "clips": {
+    "donor": {
+     "video": "static/videos/3to6cups_random_donor.mp4",
+     "poster": "static/videos/3to6cups_random_donor.jpg",
+     "seed": "2",
+     "attempt": "4",
+     "robot": "kinova_a",
+     "robot_s": 47
+    },
+    "baseline": {
+     "video": "static/videos/3to6cups_random_baseline.mp4",
+     "poster": "static/videos/3to6cups_random_baseline.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 262
+    },
+    "reuse": {
+     "video": "static/videos/3to6cups_random_reuse.mp4",
+     "poster": "static/videos/3to6cups_random_reuse.jpg",
+     "seed": "2",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 54
+    }
+   },
+   "donor": {
+    "seed": "2",
+    "robot": "kinova_a",
+    "minutes": 19.4,
+    "tokens_m": 6.17,
+    "seeds": []
+   },
+   "baseline": {
+    "minutes": 36.1,
+    "tokens_m": 19.59,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 36.1,
+      "tokens_m": 19.59
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 17.4,
+    "tokens_m": 6.7,
+    "seeds": []
+   },
+   "change": {
+    "minutes": -0.52,
+    "tokens": -0.66
    },
    "terminal": null
   },
@@ -538,18 +496,11 @@
     }
    },
    "donor": {
+    "seed": "1",
+    "robot": "kinova_b",
     "minutes": 32.3,
     "tokens_m": 11.22,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_b",
-      "minutes": 32.3,
-      "tokens_m": 11.22,
-      "attempts": 3,
-      "successes": 3
-     }
-    ]
+    "seeds": []
    },
    "baseline": {
     "minutes": 40.7,
@@ -559,17 +510,13 @@
       "seed": "2",
       "robot": "kinova_b",
       "minutes": 41.7,
-      "tokens_m": 23.65,
-      "attempts": 8,
-      "successes": 3
+      "tokens_m": 23.65
      },
      {
       "seed": "3",
       "robot": "kinova_b",
       "minutes": 39.6,
-      "tokens_m": 12.76,
-      "attempts": 6,
-      "successes": 3
+      "tokens_m": 12.76
      }
     ]
    },
@@ -581,15 +528,13 @@
       "seed": "1",
       "robot": "kinova_b",
       "minutes": 21.6,
-      "tokens_m": 10.07,
-      "attempts": 2,
-      "successes": 3
+      "tokens_m": 10.07
      }
     ]
    },
    "change": {
-    "minutes": -0.4686,
-    "tokens": -0.4466
+    "minutes": -0.47,
+    "tokens": -0.45
    },
    "terminal": null
   },
@@ -625,18 +570,11 @@
     }
    },
    "donor": {
+    "seed": "2",
+    "robot": "kinova_b",
     "minutes": 41.7,
     "tokens_m": 23.65,
-    "seeds": [
-     {
-      "seed": "2",
-      "robot": "kinova_b",
-      "minutes": 41.7,
-      "tokens_m": 23.65,
-      "attempts": 8,
-      "successes": 3
-     }
-    ]
+    "seeds": []
    },
    "baseline": {
     "minutes": 34.1,
@@ -646,17 +584,13 @@
       "seed": "1",
       "robot": "kinova_b",
       "minutes": 32.3,
-      "tokens_m": 11.22,
-      "attempts": 3,
-      "successes": 3
+      "tokens_m": 11.22
      },
      {
       "seed": "2",
       "robot": "kinova_b",
       "minutes": 36.0,
-      "tokens_m": 18.89,
-      "attempts": 7,
-      "successes": 3
+      "tokens_m": 18.89
      }
     ]
    },
@@ -668,17 +602,182 @@
       "seed": "1",
       "robot": "kinova_b",
       "minutes": 29.9,
-      "tokens_m": 11.08,
-      "attempts": 4,
-      "successes": 3
+      "tokens_m": 11.08
      }
     ]
    },
    "change": {
-    "minutes": -0.1245,
-    "tokens": -0.2637
+    "minutes": -0.12,
+    "tokens": -0.26
+   },
+   "terminal": null
+  },
+  {
+   "id": "marker_to_battery",
+   "source": "Place marker in bin",
+   "target": "Place battery in bowl",
+   "robot": "kinova_b",
+   "clips": {
+    "donor": {
+     "video": "static/videos/marker_to_battery_donor.mp4",
+     "poster": "static/videos/marker_to_battery_donor.jpg",
+     "seed": "1",
+     "attempt": "2",
+     "robot": "kinova_b",
+     "robot_s": 93
+    },
+    "baseline": {
+     "video": "static/videos/marker_to_battery_baseline.mp4",
+     "poster": "static/videos/marker_to_battery_baseline.jpg",
+     "seed": "1",
+     "attempt": "4",
+     "robot": "kinova_b",
+     "robot_s": 85
+    },
+    "reuse": {
+     "video": "static/videos/marker_to_battery_reuse.mp4",
+     "poster": "static/videos/marker_to_battery_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_b",
+     "robot_s": 80
+    }
+   },
+   "donor": {
+    "seed": "1",
+    "robot": "kinova_b",
+    "minutes": 30.6,
+    "tokens_m": 12.89,
+    "seeds": []
+   },
+   "baseline": {
+    "minutes": 35.6,
+    "tokens_m": 14.37,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 35.6,
+      "tokens_m": 14.37
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 13.8,
+    "tokens_m": 6.7,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 13.8,
+      "tokens_m": 6.7
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.61,
+    "tokens": -0.53
+   },
+   "terminal": null
+  },
+  {
+   "id": "battery_to_marker",
+   "source": "Place battery in bowl",
+   "target": "Place marker in bin",
+   "robot": "kinova_b",
+   "clips": {
+    "donor": {
+     "video": "static/videos/battery_to_marker_donor.mp4",
+     "poster": "static/videos/battery_to_marker_donor.jpg",
+     "seed": "1",
+     "attempt": "4",
+     "robot": "kinova_b",
+     "robot_s": 85
+    },
+    "baseline": {
+     "video": "static/videos/battery_to_marker_baseline.mp4",
+     "poster": "static/videos/battery_to_marker_baseline.jpg",
+     "seed": "1",
+     "attempt": "2",
+     "robot": "kinova_b",
+     "robot_s": 93
+    },
+    "reuse": {
+     "video": "static/videos/battery_to_marker_reuse.mp4",
+     "poster": "static/videos/battery_to_marker_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_b",
+     "robot_s": 95
+    }
+   },
+   "donor": {
+    "seed": "1",
+    "robot": "kinova_b",
+    "minutes": 35.6,
+    "tokens_m": 14.37,
+    "seeds": []
+   },
+   "baseline": {
+    "minutes": 30.6,
+    "tokens_m": 12.89,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_b",
+      "minutes": 30.6,
+      "tokens_m": 12.89
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 14.9,
+    "tokens_m": 5.0,
+    "seeds": []
+   },
+   "change": {
+    "minutes": -0.51,
+    "tokens": -0.61
    },
    "terminal": null
   }
- ]
+ ],
+ "sim": {
+  "donor": {
+   "name": "Set up mug",
+   "video": "static/videos/sim_videos/00_Donor_coffee_setup_mug.mp4"
+  },
+  "tasks": [
+   {
+    "name": "Serve mug",
+    "video": "static/videos/sim_videos/01_Recipient_coffee_serve_mug.mp4"
+   },
+   {
+    "name": "Counter to sink",
+    "video": "static/videos/sim_videos/02_Recipient_pnp_counter_to_sink.mp4"
+   },
+   {
+    "name": "Counter to cabinet",
+    "video": "static/videos/sim_videos/03_Recipient_pnp_counter_to_cab.mp4"
+   },
+   {
+    "name": "Open drawer",
+    "video": "static/videos/sim_videos/04_Recipient_open_drawer.mp4"
+   },
+   {
+    "name": "Turn off sink faucet",
+    "video": "static/videos/sim_videos/05_Recipient_turn_off_sink_faucet.mp4"
+   }
+  ],
+  "summary": {
+   "minutes": [
+    -0.23,
+    -0.14
+   ],
+   "tokens": [
+    -0.32,
+    -0.25
+   ]
+  }
+ }
 }
