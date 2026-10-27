@@ -62,6 +62,8 @@ section { padding-block: 36px; }
 .btn svg { width: 16px; height: 16px; fill: currentColor; }
 .btn[aria-disabled="true"] { opacity: 0.45; cursor: not-allowed; }
 .btn[aria-disabled="true"]:hover { text-decoration: none; }
+.btn.is-soon { opacity: 1; background: var(--bg); color: var(--fg); box-shadow: inset 0 0 0 1px #C3CBD5; cursor: default; }
+.btn .soon { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; background: #E4EEF7; color: #2B5F8A; border-radius: 999px; padding: 1px 8px; margin-left: 2px; }
 
 h2 { font-size: 1.75rem; font-weight: 600; text-align: center; margin: 0 0 8px; text-wrap: balance; }
 .lede { text-align: center; color: var(--muted); margin: 0 auto 22px; max-width: 700px; text-wrap: balance; }
@@ -170,14 +172,14 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
   <div class="links">
     <a class="btn" aria-disabled="true" role="link" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm-1 7V3.5L18.5 9z"/></svg>Paper</a>
     <a class="btn" aria-disabled="true" role="link" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm3.5 4.5L11 12l-3.5 4.5h2.4L12.2 13.4l2.3 3.1h2.4L13.4 12l3.5-4.5h-2.4L12.2 10.6 9.9 7.5z"/></svg>arXiv</a>
-    <a class="btn" aria-disabled="true" role="link" tabindex="-1"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
+    <a class="btn is-soon" aria-disabled="true" role="link" tabindex="-1" title="Code coming soon" aria-label="Code, coming soon"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Code<span class="soon">coming soon</span></a>
     <a class="btn" href="#transfer"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#play"/></svg>Videos</a>
   </div>
 </header>
 
 <!-- Mosaic of successful runs (scripts/build_media.py) -->
 <section class="mosaic full" style="padding-block-start: 8px">
-  <video src="static/videos/mosaic.mp4" poster="static/videos/mosaic.jpg" autoplay muted loop playsinline
+  <video src="static/videos/mosaic.mp4?v=2" poster="static/videos/mosaic.jpg?v=2" autoplay muted loop playsinline
          aria-label="24 successful real-robot runs playing at once, from side and wrist cameras"></video>
 </section>
 
@@ -185,7 +187,7 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
 <section class="intro">
   <h2>Method</h2>
   <figure>
-    <img src="static/images/method.png" width="936" height="325" alt="FAR method: retain useful code from earlier tasks in a skill library, adapt it to the new task with a code agent, then execute and refine on the robot or simulator. Examples: reusing code in simulation (set up mug to apple to sink), reusing code to stack more cups (2 to 3 cups, 3 to 5 or 6 cups), and using depth to hang a cap.">
+    <img src="static/images/method.png?v=2" width="936" height="325" alt="FAR method: retain useful code from earlier tasks in a skill library, adapt it to the new task with a code agent, then execute and refine on the robot or simulator. Examples: reusing code in simulation (set up mug to apple to sink), reusing code to stack more cups (2 to 3 cups, 3 to 5 or 6 cups), and using depth to hang a cap.">
     <figcaption><strong>Reuse components; adapt the task.</strong> Earlier code (blue) supports new task logic (orange).</figcaption>
   </figure>
   <p class="narrow">A coding agent must program a robot for a new task, such as building a six-cup pyramid. We let it start from code written for an earlier task, such as building a three-cup pyramid, instead of from scratch.</p>
