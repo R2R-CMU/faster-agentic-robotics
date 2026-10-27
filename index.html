@@ -305,7 +305,7 @@ function render(F) {
         '<div class="col">' + vid(e.clips.baseline, title + ' · Baseline') + '<h4>Baseline' + q('baseline', 'the baseline') + '</h4>' + bars(e.baseline, '') + '</div>' +
         '<div class="col">' + vid(e.clips.reuse, title + ' · Skill reuse') + '<h4 class="ours">Skill reuse' + q('reuse', 'skill reuse') + '</h4>' + bars(e.reuse, 'ours') + '</div>' +
         '<div class="col">' + (e.terminal ? vid(e.terminal, title + ' · Terminal (' + e.terminal.note + ', ' + e.terminal.speed + '×)') : slot('static/videos/' + e.id + '_terminal.mp4', 'Agent terminal', title + ' · Terminal')) +
-          '<h4>Terminal' + q('terminal', 'the terminal') + '</h4><div class="mini"><span class="sub">' + (e.terminal ? 'Skill-reuse agent\'s session' : 'Coming soon.') + '</span></div></div>' +
+          '<h4>Terminal' + q('terminal', 'the terminal') + '</h4>' + (e.terminal ? '' : '<div class="mini"><span class="sub">Coming soon.</span></div>') + '</div>' +
       '</div>' +
       '</article>';
   }).join('');
