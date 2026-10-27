@@ -216,7 +216,6 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
   <div class="stats" id="stats"></div>
   <div id="cards"></div>
   <p class="notes">Agent time is the summed duration of coding agent turns. It excludes robot execution and operator waits. Values average up to two runs on the donor's arm. Videos play at 4×. Click any video to enlarge it.</p>
-  <p class="notes">The terminal videos come from offline re-runs with the same prompts, demos and skill library but no robot. They run longer than the times we report. Offline, the agent replays each plan in simulation inside its own turn. On the robot, each attempt runs between the agent's turns and is not counted. The offline agent also has to make perception work on recorded demo frames and check two episodes before it stops.</p>
 </section>
 
 <!-- Highlights: drop videos at the listed paths and they replace the placeholders -->
@@ -265,7 +264,7 @@ var TIPS = {
   donor: 'The earlier task that produced the reusable code.',
   baseline: 'The new task, programmed from scratch.',
   reuse: 'Ours: the new task, programmed starting from the donor\'s skill library.',
-  terminal: 'An offline re-run of the transfer agent with no robot. It runs longer than the reported time. See the note below the cards.'
+  terminal: 'An offline re-run of the transfer agent with no robot. It runs longer than reported because its simulated attempts count as agent time, while real robot attempts did not.'
 };
 
 function q(key, name) {
