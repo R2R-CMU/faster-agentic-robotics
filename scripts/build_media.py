@@ -30,6 +30,11 @@ SKIP_S = 1  # some dashboards open on black frames while the cameras start
 # Mosaic: COLS x ROWS tiles separated by white gutters; each tile is one full successful attempt
 # time-lapsed into TILE_S seconds, from a randomly chosen camera.
 COLS, ROWS, TILE_W, TILE_H, GUTTER, TILE_S, FPS = 6, 4, 316, 178, 4, 16, 24
+# Hand-picked replacements for random tiles: index (row * COLS + col) -> (task, condition, seed,
+# attempt or None for the first success, camera).
+MOSAIC_OVERRIDES = {
+    7: ("6cups_down_stacking_random", "baseline", "1", None, "side"),  # was the shirt-folding wrist view
+}
 EXP_SPEED = 4  # experiment clips all play at the same speed so durations stay comparable
 
 # The seven comparisons in the paper's table (far_trials/paper_table.tex), same seeds.
@@ -126,6 +131,8 @@ def build_mosaic(rows, out):
     rng.shuffle(picks)
     cams = (["side", "wrist"] * n)[:n]
     rng.shuffle(cams)
+    for i, (task, cond, seed, attempt, cam) in MOSAIC_OVERRIDES.items():
+        picks[i], cams[i] = find_video(rows, task, cond, seed, attempt), cam
 
     tmp = tempfile.mkdtemp()
     try:
