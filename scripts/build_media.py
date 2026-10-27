@@ -113,7 +113,7 @@ EXPERIMENTS = [
 SIM = {
     "donor": ("Set up mug", "00_Donor_coffee_setup_mug.mp4"),
     "tasks": [("Serve mug", "01_Recipient_coffee_serve_mug.mp4"),
-              ("Counter to sink", "02_Recipient_pnp_counter_to_sink.mp4"),
+              ("Apple to sink", "02_Recipient_pnp_counter_to_sink.mp4"),  # name as in the paper figure
               ("Counter to cabinet", "03_Recipient_pnp_counter_to_cab.mp4"),
               ("Open drawer", "04_Recipient_open_drawer.mp4"),
               ("Turn off sink faucet", "05_Recipient_turn_off_sink_faucet.mp4")],
