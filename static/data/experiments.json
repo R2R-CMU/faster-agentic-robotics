@@ -1,8 +1,8 @@
 {
  "speed": 4,
  "mean_change": {
-  "tokens": -0.34,
-  "minutes": -0.46
+  "tokens": -0.31,
+  "minutes": -0.45
  },
  "experiments": [
   {
@@ -384,8 +384,8 @@
     "seeds": []
    },
    "baseline": {
-    "minutes": 32.2,
-    "tokens_m": 13.62,
+    "minutes": 34.7,
+    "tokens_m": 15.88,
     "seeds": [
      {
       "seed": "1",
@@ -408,8 +408,8 @@
     ]
    },
    "change": {
-    "minutes": -0.55,
-    "tokens": -0.43
+    "minutes": -0.58,
+    "tokens": -0.51
    },
    "terminal": {
     "video": "static/videos/3to6cups_terminal.mp4?v=4",
@@ -457,8 +457,8 @@
     "seeds": []
    },
    "baseline": {
-    "minutes": 36.1,
-    "tokens_m": 19.59,
+    "minutes": 32.8,
+    "tokens_m": 16.43,
     "seeds": [
      {
       "seed": "1",
@@ -469,13 +469,13 @@
     ]
    },
    "reuse": {
-    "minutes": 17.4,
-    "tokens_m": 6.7,
+    "minutes": 19.3,
+    "tokens_m": 8.6,
     "seeds": []
    },
    "change": {
-    "minutes": -0.52,
-    "tokens": -0.66
+    "minutes": -0.41,
+    "tokens": -0.48
    },
    "terminal": {
     "video": "static/videos/3to6cups_random_terminal.mp4?v=4",
@@ -541,8 +541,8 @@
     ]
    },
    "reuse": {
-    "minutes": 21.6,
-    "tokens_m": 10.07,
+    "minutes": 25.4,
+    "tokens_m": 14.11,
     "seeds": [
      {
       "seed": "1",
@@ -553,8 +553,8 @@
     ]
    },
    "change": {
-    "minutes": -0.47,
-    "tokens": -0.45
+    "minutes": -0.38,
+    "tokens": -0.22
    },
    "terminal": {
     "video": "static/videos/cap_to_cup_holder_terminal.mp4?v=4",
@@ -620,8 +620,8 @@
     ]
    },
    "reuse": {
-    "minutes": 29.9,
-    "tokens_m": 11.08,
+    "minutes": 30.1,
+    "tokens_m": 13.8,
     "seeds": [
      {
       "seed": "1",
@@ -633,7 +633,7 @@
    },
    "change": {
     "minutes": -0.12,
-    "tokens": -0.26
+    "tokens": -0.08
    },
    "terminal": {
     "video": "static/videos/cup_to_cap_holder_terminal.mp4?v=4",
@@ -681,8 +681,8 @@
     "seeds": []
    },
    "baseline": {
-    "minutes": 35.6,
-    "tokens_m": 14.37,
+    "minutes": 32.9,
+    "tokens_m": 15.95,
     "seeds": [
      {
       "seed": "1",
@@ -693,8 +693,8 @@
     ]
    },
    "reuse": {
-    "minutes": 13.8,
-    "tokens_m": 6.7,
+    "minutes": 12.1,
+    "tokens_m": 5.86,
     "seeds": [
      {
       "seed": "1",
@@ -705,8 +705,8 @@
     ]
    },
    "change": {
-    "minutes": -0.61,
-    "tokens": -0.53
+    "minutes": -0.63,
+    "tokens": -0.63
    },
    "terminal": {
     "video": "static/videos/marker_to_battery_terminal.mp4?v=4",
@@ -766,13 +766,13 @@
     ]
    },
    "reuse": {
-    "minutes": 14.9,
-    "tokens_m": 5.0,
+    "minutes": 11.8,
+    "tokens_m": 3.99,
     "seeds": []
    },
    "change": {
-    "minutes": -0.51,
-    "tokens": -0.61
+    "minutes": -0.61,
+    "tokens": -0.69
    },
    "terminal": {
     "video": "static/videos/battery_to_marker_terminal.mp4?v=4",
