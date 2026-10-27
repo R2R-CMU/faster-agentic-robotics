@@ -6,91 +6,6 @@
  },
  "experiments": [
   {
-   "id": "2up_to_2down",
-   "source": "Nest 2 upright cups",
-   "target": "Stack 2 inverted cups",
-   "robot": "kinova_a",
-   "clips": {
-    "donor": {
-     "video": "static/videos/2up_to_2down_donor.mp4",
-     "poster": "static/videos/2up_to_2down_donor.jpg",
-     "seed": "4",
-     "attempt": "1",
-     "robot": "kinova_a",
-     "robot_s": 51
-    },
-    "baseline": {
-     "video": "static/videos/2up_to_2down_baseline.mp4",
-     "poster": "static/videos/2up_to_2down_baseline.jpg",
-     "seed": "1",
-     "attempt": "1",
-     "robot": "kinova_a",
-     "robot_s": 72
-    },
-    "reuse": {
-     "video": "static/videos/2up_to_2down_reuse.mp4",
-     "poster": "static/videos/2up_to_2down_reuse.jpg",
-     "seed": "1",
-     "attempt": "1",
-     "robot": "kinova_a",
-     "robot_s": 65
-    }
-   },
-   "donor": {
-    "seed": "4",
-    "robot": "kinova_a",
-    "minutes": 17.7,
-    "tokens_m": 5.4,
-    "seeds": []
-   },
-   "baseline": {
-    "minutes": 23.7,
-    "tokens_m": 8.88,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_a",
-      "minutes": 22.3,
-      "tokens_m": 6.19
-     },
-     {
-      "seed": "2",
-      "robot": "kinova_a",
-      "minutes": 25.0,
-      "tokens_m": 11.57
-     }
-    ]
-   },
-   "reuse": {
-    "minutes": 11.7,
-    "tokens_m": 4.76,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_a",
-      "minutes": 14.3,
-      "tokens_m": 5.11
-     },
-     {
-      "seed": "2",
-      "robot": "kinova_a",
-      "minutes": 9.0,
-      "tokens_m": 4.41
-     }
-    ]
-   },
-   "change": {
-    "minutes": -0.51,
-    "tokens": -0.46
-   },
-   "terminal": {
-    "video": "static/videos/2up_to_2down_terminal.mp4",
-    "poster": "static/videos/2up_to_2down_terminal.jpg",
-    "speed": 16,
-    "note": "full session"
-   }
-  },
-  {
    "id": "2down_to_2up",
    "source": "Stack 2 inverted cups",
    "target": "Nest 2 upright cups",
@@ -173,6 +88,91 @@
     "poster": "static/videos/2down_to_2up_terminal.jpg",
     "speed": 16,
     "note": "last 7 min of the session"
+   }
+  },
+  {
+   "id": "2up_to_2down",
+   "source": "Nest 2 upright cups",
+   "target": "Stack 2 inverted cups",
+   "robot": "kinova_a",
+   "clips": {
+    "donor": {
+     "video": "static/videos/2up_to_2down_donor.mp4",
+     "poster": "static/videos/2up_to_2down_donor.jpg",
+     "seed": "4",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 51
+    },
+    "baseline": {
+     "video": "static/videos/2up_to_2down_baseline.mp4",
+     "poster": "static/videos/2up_to_2down_baseline.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 72
+    },
+    "reuse": {
+     "video": "static/videos/2up_to_2down_reuse.mp4",
+     "poster": "static/videos/2up_to_2down_reuse.jpg",
+     "seed": "1",
+     "attempt": "1",
+     "robot": "kinova_a",
+     "robot_s": 65
+    }
+   },
+   "donor": {
+    "seed": "4",
+    "robot": "kinova_a",
+    "minutes": 17.7,
+    "tokens_m": 5.4,
+    "seeds": []
+   },
+   "baseline": {
+    "minutes": 23.7,
+    "tokens_m": 8.88,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 22.3,
+      "tokens_m": 6.19
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 25.0,
+      "tokens_m": 11.57
+     }
+    ]
+   },
+   "reuse": {
+    "minutes": 11.7,
+    "tokens_m": 4.76,
+    "seeds": [
+     {
+      "seed": "1",
+      "robot": "kinova_a",
+      "minutes": 14.3,
+      "tokens_m": 5.11
+     },
+     {
+      "seed": "2",
+      "robot": "kinova_a",
+      "minutes": 9.0,
+      "tokens_m": 4.41
+     }
+    ]
+   },
+   "change": {
+    "minutes": -0.51,
+    "tokens": -0.46
+   },
+   "terminal": {
+    "video": "static/videos/2up_to_2down_terminal.mp4",
+    "poster": "static/videos/2up_to_2down_terminal.jpg",
+    "speed": 16,
+    "note": "full session"
    }
   },
   {

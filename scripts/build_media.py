@@ -59,19 +59,19 @@ MOSAIC_TILES = [
 ]
 EXP_SPEED = 4  # experiment clips all play at the same speed so durations stay comparable
 
-# The ten transfers in the paper's table; source/target match its Donor task / New task columns.
+# The ten transfers in the paper's table, in its order; source/target match its Donor task / New task columns.
 # donor: the library the shown with-library seed copied (far_skills/*/PROVENANCE.md, attempt = the
 # library's source commit). baseline/reuse: (task, condition, seeds the paper averages or None if
 # results.csv does not reproduce the paper's value, seed whose video is shown).
 EXPERIMENTS = [
-    dict(id="2up_to_2down", source="Nest 2 upright cups", target="Stack 2 inverted cups",
-         donor=("cup_up_stacking", "baseline", "4", "1"),
-         baseline=("cup_down_stacking", "baseline", ["1", "2"], "1"),
-         reuse=("cup_down_stacking", "skill_transfer-cup_up_stacking", ["1", "2"], "1")),
     dict(id="2down_to_2up", source="Stack 2 inverted cups", target="Nest 2 upright cups",
          donor=("cup_down_stacking", "baseline", "4", "2"),
          baseline=("cup_up_stacking", "baseline", ["5", "7"], "5"),
          reuse=("cup_up_stacking", "skill_transfer-cup_down_stacking", ["1", "2"], "2")),
+    dict(id="2up_to_2down", source="Nest 2 upright cups", target="Stack 2 inverted cups",
+         donor=("cup_up_stacking", "baseline", "4", "1"),
+         baseline=("cup_down_stacking", "baseline", ["1", "2"], "1"),
+         reuse=("cup_down_stacking", "skill_transfer-cup_up_stacking", ["1", "2"], "1")),
     dict(id="2_to_3cups", source="Stack 2 inverted cups", target="Build 3-cup pyramid",
          donor=("cup_down_stacking", "baseline", "1", "1"),
          baseline=("3cups_down_stacking", "baseline", ["1", "2"], "1"),
