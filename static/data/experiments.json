@@ -1,7 +1,7 @@
 {
  "speed": 4,
  "mean_change": {
-  "tokens": -0.3,
+  "tokens": -0.31,
   "minutes": -0.45
  },
  "experiments": [
@@ -653,32 +653,18 @@
     "seeds": []
    },
    "baseline": {
-    "minutes": 35.6,
-    "tokens_m": 14.37,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_b",
-      "minutes": 35.6,
-      "tokens_m": 14.37
-     }
-    ]
+    "minutes": 32.9,
+    "tokens_m": 15.95,
+    "seeds": []
    },
    "reuse": {
-    "minutes": 13.8,
-    "tokens_m": 6.7,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_b",
-      "minutes": 13.8,
-      "tokens_m": 6.7
-     }
-    ]
+    "minutes": 12.1,
+    "tokens_m": 5.86,
+    "seeds": []
    },
    "change": {
-    "minutes": -0.61,
-    "tokens": -0.53
+    "minutes": -0.63,
+    "tokens": -0.63
    },
    "terminal": {
     "video": "static/videos/marker_to_battery_terminal.mp4?v=4",

@@ -109,6 +109,13 @@ EXPERIMENTS = [
          reuse=("marker_placement", "skill_transfer-battery_placement", None, "1")),
 ]
 
+# Final Table 2 values where far_trials/paper_table.tex on WorkStation_4090 is out of date
+# (from commit fd29491): (baseline, with library, change) per metric, and the mean row.
+TABLE_OVERRIDES = {
+    "marker_to_battery": {"tokens": (15.95, 5.86, -0.63), "minutes": (32.9, 12.1, -0.63)},
+}
+MEAN_OVERRIDE = {"tokens": -0.31, "minutes": -0.45}
+
 # Donor cost shown on each card: (tokens in M, agent minutes) for the donor task, on the same basis
 # as the paper's baseline rows. Cards not listed fall back to the donor trial in results.csv.
 DONOR_COST = {
@@ -336,6 +343,7 @@ def experiment_data(runs, rows, out, videos, table):
         p = paper.get((e["source"], e["target"]))
         if not p:
             raise SystemExit(f"paper table has no row {e['source']} -> {e['target']}")
+        p = TABLE_OVERRIDES.get(e["id"], p)
         if videos:
             print(e["id"])
         clips = {}
@@ -364,6 +372,7 @@ def experiment_data(runs, rows, out, videos, table):
                      "terminal": terminal(e["id"])})
         print(f"{label}: tokens {p['tokens'][0]} -> {p['tokens'][1]} ({p['tokens'][2]:+.0%}), "
               f"agent min {p['minutes'][0]} -> {p['minutes'][1]} ({p['minutes'][2]:+.0%})")
+    paper_mean = MEAN_OVERRIDE or paper_mean
     print(f"paper mean change: tokens {paper_mean['tokens']:+.0%}, agent time {paper_mean['minutes']:+.0%}")
     sim = {"donor": {"name": SIM["donor"][0], "video": f"static/videos/sim_videos/{SIM['donor'][1]}"},
            "tasks": [{"name": n, "video": f"static/videos/sim_videos/{f}"} for n, f in SIM["tasks"]],
