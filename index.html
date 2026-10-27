@@ -295,11 +295,9 @@ function render(F) {
 
   var faster = exps.filter(function (e) { return e.change.minutes < 0; }).length;
   var tile = function (big, label, def) { return '<div class="stat"><span class="big">' + big + '</span><span class="label">' + label + '</span>' + (def ? '<span class="def">' + def + '</span>' : '') + '</div>'; };
-  var lo = function (k) { return Math.min.apply(null, exps.map(function (e) { return e.change[k]; })); };
-  var hi = function (k) { return Math.max.apply(null, exps.map(function (e) { return e.change[k]; })); };
   document.getElementById('stats').innerHTML =
-    tile(span(lo('minutes'), hi('minutes')), 'agent time', 'range across ' + exps.length + ' transfers, mean ' + pct(F.mean_change.minutes)) +
-    tile(span(lo('tokens'), hi('tokens')), 'model tokens', 'range across ' + exps.length + ' transfers, mean ' + pct(F.mean_change.tokens)) +
+    tile(pct(F.mean_change.minutes), 'agent time', 'mean of ' + exps.length + ' transfers') +
+    tile(pct(F.mean_change.tokens), 'model tokens', 'mean of ' + exps.length + ' transfers') +
     tile(faster + '/' + exps.length, 'transfers faster than baseline');
 
   if (F.sim) {
