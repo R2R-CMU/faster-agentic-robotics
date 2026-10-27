@@ -82,6 +82,14 @@ TERMINALS = {
 TERM_SPEED = 16
 TERM_CROP = "crop=1232:693:48:22"  # terminal window inside the 1280x720 desktop capture
 
+# Highlights (listed in ~/path.txt on WorkStation_4090): both cameras side by side.
+# name -> (task, condition, seed, attempt, speed, poster time in source seconds)
+HIGHLIGHTS = {
+    "highlight1": ("6cups_down_stacking_random", "skill_transfer-3cups_down_stacking", "1", "6", 8, 45),  # moves a cup away first
+    "highlight2": ("hand_cup_holder", "baseline", "3", "5", 4, 80),  # places the cup upright on the fingertip
+}
+BOTH_CAMS = "crop=iw:iw*9/32:0:0"
+
 # Task directories renamed after success_videos.csv was written.
 RENAMED = {"3cups_up_stacking_left_right": "3cups_up_stacking"}
 
@@ -190,6 +198,18 @@ def build_terminal(obs, out, name, rec):
     print(f"  {name}: {f} [{start}-{end} s]")
 
 
+def build_highlights(rows, out):
+    for name, (task, cond, seed, attempt, speed, poster_s) in HIGHLIGHTS.items():
+        r = find_video(rows, task, cond, seed, attempt)
+        path = os.path.join(out, f"{name}.mp4")
+        ffmpeg("-ss", str(SKIP_S), "-i", r["path"], "-an", "-vf",
+               f"{BOTH_CAMS},scale=1280:360,setpts=PTS/{speed},fps=30",
+               "-c:v", "libx264", "-crf", "26", "-preset", "slow", "-pix_fmt", "yuv420p",
+               "-movflags", "+faststart", path)
+        ffmpeg("-ss", str((poster_s - SKIP_S) / speed), "-i", path, "-frames:v", "1", "-q:v", "4", path[:-4] + ".jpg")
+        print(f"{name}: {r['path']} at {speed}x")
+
+
 def experiment_data(runs, rows, out, videos, obs):
     with open(os.path.join(runs, "results.csv")) as f:
         res = [r for r in csv.DictReader(f) if r["success"] == "True"]
@@ -272,6 +292,7 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=1)
     if not a.stats:
         build_mosaic(rows, vid_dir)
+        build_highlights(rows, vid_dir)
 
 
 if __name__ == "__main__":

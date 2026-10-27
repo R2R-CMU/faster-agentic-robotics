@@ -139,10 +139,10 @@ figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 10px; text-alig
 #zoom .close { position: absolute; top: -40px; right: 0; font: 400 1.8rem/1 var(--font-body); color: #fff; background: none; border: 0; cursor: pointer; padding: 4px 8px; }
 
 /* Highlights */
-.hl-cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.vid.strip { aspect-ratio: 32 / 9; }  /* side and wrist cameras side by side */
 
 @media (max-width: 860px) {
-  .cols, .hl-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 480px) {
   .cols { grid-template-columns: 1fr; }
@@ -206,24 +206,14 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
 <section id="highlights" class="wide">
   <h2>Highlights</h2>
   <article class="card">
-    <div class="card-head"><h3>Highlight 1: observation title</h3></div>
-    <p>One sentence on what to notice.</p>
-    <div class="hl-cols">
-      <div class="vid" data-optional="static/videos/highlight1_a.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_a.mp4</div></div></div>
-      <div class="vid" data-optional="static/videos/highlight1_b.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_b.mp4</div></div></div>
-      <div class="vid" data-optional="static/videos/highlight1_c.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_c.mp4</div></div></div>
-      <div class="vid" data-optional="static/videos/highlight1_d.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight1_d.mp4</div></div></div>
-    </div>
+    <div class="card-head"><h3>Making space first</h3></div>
+    <p>The robot makes space by first moving a cup out of the way.</p>
+    <div class="vid strip" data-label="Making space first · side and wrist cameras"><video data-src="static/videos/highlight1.mp4" poster="static/videos/highlight1.jpg" muted loop playsinline preload="none"></video><span class="speed">8×</span></div>
   </article>
   <article class="card">
-    <div class="card-head"><h3>Highlight 2: observation title</h3></div>
-    <p>One sentence on what to notice.</p>
-    <div class="hl-cols">
-      <div class="vid" data-optional="static/videos/highlight2_a.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_a.mp4</div></div></div>
-      <div class="vid" data-optional="static/videos/highlight2_b.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_b.mp4</div></div></div>
-      <div class="vid" data-optional="static/videos/highlight2_c.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_c.mp4</div></div></div>
-      <div class="vid" data-optional="static/videos/highlight2_d.mp4"><div class="ph"><div class="play"><svg><use href="#play"/></svg></div><div class="path">static/videos/highlight2_d.mp4</div></div></div>
-    </div>
+    <div class="card-head"><h3>Placing on the fingertip</h3></div>
+    <p>The robot uses the tip of the wooden finger and learns to place the cup vertically, instead of along the direction of the finger.</p>
+    <div class="vid strip" data-label="Placing on the fingertip · side and wrist cameras"><video data-src="static/videos/highlight2.mp4" poster="static/videos/highlight2.jpg" muted loop playsinline preload="none"></video><span class="speed">4×</span></div>
   </article>
 </section>
 
