@@ -1,0 +1,43 @@
+skill_id,display_label,cup_down_stacking__to__3cups_down_stacking,cup_down_stacking__to__cup_up_stacking,cup_up_stacking__to__3cups_up_stacking,cup_up_stacking__to__cup_down_stacking,3cups_down_stacking__to__5cups_down_stacking,3cups_down_stacking__to__5cups_down_stacking_random,3cups_down_stacking__to__6cups_down_stacking,3cups_down_stacking__to__6cups_down_stacking_random,hand_cup_holder__to__cap_holder,cap_holder__to__hand_cup_holder,marker_placement__to__battery_placement,battery_placement__to__marker_placement
+kortex_robot_io,Robot connection & commands,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓
+trajectory_planning,Motion planning,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓
+joint_speed_executor,Joint-speed control,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓,✓
+gen3_kinematics,Gen3 kinematics,—,—,✓,✓,—,—,—,—,—,—,—,—
+kinematics_fit,Kinematic model & fitting,✓,✓,—,—,✓,✓,✓,✓,✓,✓,✓,✓
+fk_oracle_fit,Forward-kinematics fitting,—,—,✓,✓,—,—,—,—,—,—,—,—
+calibration_data,Calibration data,✓,✓,—,—,✓,✓,✓,✓,✓,✓,✓,✓
+rig_calibration,Camera-rig calibration,—,—,✓,✓,—,—,—,—,—,—,—,—
+cameras_pointclouds,Cameras & point clouds,—,—,—,—,—,—,—,—,✓,✓,—,✓
+cameras_heightmap,Cameras & height maps,—,—,—,—,—,—,—,—,—,—,✓,—
+cameras_live_view,Cameras & live view,—,—,—,—,✓,✓,✓,✓,—,—,—,—
+side_camera_cups,Side-depth cup finder,—,—,✓,✓,—,—,—,—,—,—,—,—
+side_cup_perception,Side-view cup position & height,✓,✓,—,—,✓,✓,✓,✓,—,—,—,—
+wrist_cup_refine,Wrist-camera cup refinement,✓,✓,—,—,—,—,—,—,—,—,—,—
+wrist_depth_refine,Wrist-depth refinement,—,—,—,—,✓,✓,✓,✓,—,—,—,—
+wrist_view_refine,Wrist-view refinement,—,—,—,—,—,—,—,—,—,2/3*,—,—
+hand_cup_perception,Holder finger & cup perception,—,—,—,—,—,—,—,—,✓,—,—,—
+holder_cap_perception,Holder & cap perception,—,—,—,—,—,—,—,—,—,2/3,—,—
+marker_bin_detection,Marker & container detection,—,—,—,—,—,—,—,—,—,—,✓,—
+battery_bowl_perception,Battery & bowl perception,—,—,—,—,—,—,—,—,—,—,—,✓
+demo_rule_extraction,Rule extraction from demonstrations,✓,✓,✓,✓,—,—,—,—,—,—,—,—
+pyramid_rule_from_demos,Cup-stack rule & demo helpers,—,—,—,—,✓,✓,✓,✓,—,—,—,—
+cup_rule_from_demos,Cup-holder rule & demo helpers,—,—,—,—,—,—,—,—,✓,—,—,—
+branch_rule_from_demos,Branch rule & demo helpers,—,—,—,—,—,—,—,—,—,2/3,—,—
+marker_rule_from_demos,Marker rule & demo helpers,—,—,—,—,—,—,—,—,—,—,✓,—
+battery_rule_from_demos,Battery rule & demo helpers,—,—,—,—,—,—,—,—,—,—,—,✓
+cup_grasp_and_nest,Cup grasping & nesting,—,—,✓,✓,—,—,—,—,—,—,—,—
+cup_grasp_place,Cup grasping & pyramid placement,—,—,—,—,✓,✓,✓,✓,—,—,—,—
+cup_grasp_place_checks,Cup grasping / placement checks,✓,✓,—,—,—,—,—,—,—,—,—,—
+cup_grasp_place_finger,Cup placement over a holder’s finger,—,—,—,—,—,—,—,—,✓,—,—,—
+cap_grasp_hang,Cap grasping & hanging,—,—,—,—,—,—,—,—,—,2/3,—,—
+marker_grasp_place_bin,Marker grasping & placement,—,—,—,—,—,—,—,—,—,—,✓,—
+battery_grasp_place,Battery grasping & placement,—,—,—,—,—,—,—,—,—,—,—,✓
+sim_replay_check,Cup-clearance replay,—,—,✓,✓,—,—,—,—,—,—,—,—
+sim_replay_checks,Simulation replay checks,✓,✓,—,—,✓,✓,✓,✓,✓,✓,✓,✓
+safety_watchdog,Safety watchdog,—,—,✓,✓,—,—,—,—,—,—,—,—
+safety_home_watchdog,"Stop, return home & watchdog",✓,✓,—,—,✓,✓,✓,✓,✓,✓,✓,✓
+place_verification,Placement verification,—,—,—,—,—,—,—,—,✓,—,—,✓
+bin_place_verification,Container-placement verification,—,—,—,—,—,—,—,—,—,—,✓,—
+task_program,Task-program scaffold,✓,✓,—,—,✓,✓,✓,✓,✓,✓,✓,✓
+cup_up_stacking_program,Upright-cup task program,—,—,✓,✓,—,—,—,—,—,—,—,—
+live_view,Live camera display,✓,✓,✓,✓,—,—,—,—,—,✓,—,—

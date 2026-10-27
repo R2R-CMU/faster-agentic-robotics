@@ -1,0 +1,850 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2180" viewBox="0 0 2200 2180" role="img" aria-labelledby="title desc">
+<title id="title">Skill libraries and recorded transfers</title>
+<desc id="desc">Complete matrix of 42 skill names across seven donor libraries and twelve recipient directions. Checkmarks indicate retained code in every run. Four cells marked Some indicate code retained in some runs.</desc>
+<rect x="0" y="0" width="2200" height="2180" fill="#ffffff"/>
+<text x="42" y="56" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#18323d" text-anchor="start">Skill libraries and recorded transfers</text>
+<text x="42" y="93" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#516770" text-anchor="start">42 skill names  ·  7 donor libraries  ·  12 transfer directions</text>
+<text x="42" y="137" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#516770" text-anchor="start">Donor = earlier task supplying the library. Recipient = new task receiving the code.</text>
+<polyline points="44,174 49,179 60,167" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="72" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Code retained in every run</text>
+<rect x="412" y="157" width="60" height="32" fill="#fff0d7"/>
+<text x="442" y="180" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
+<text x="483" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Code retained in some runs</text>
+<text x="893" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#75878e" text-anchor="start">—</text>
+<text x="925" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Skill absent from that donor library</text>
+<path d="M42,203 L2158,203" stroke="#18323d" stroke-width="1.5" fill="none"/>
+<text x="55" y="242" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#18323d" text-anchor="start">Skill</text>
+<text x="55" y="276" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#516770" text-anchor="start">Grouped by function</text>
+<text x="55" y="310" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#096b65" text-anchor="start">Donor → recipient</text>
+<rect x="504" y="214" width="272" height="80" fill="#e8f3ef"/>
+<text x="640.0" y="249.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">Two inverted cups</text>
+<text x="640.0" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#096b65" text-anchor="middle">Donor</text>
+<rect x="780" y="214" width="272" height="80" fill="#e8f3ef"/>
+<text x="916.0" y="249.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">Two upright cups</text>
+<text x="916.0" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#096b65" text-anchor="middle">Donor</text>
+<path d="M778,214 L778,2150" stroke="#d9e2e5" stroke-width="1.6" fill="none"/>
+<rect x="1056" y="214" width="548" height="80" fill="#e8f3ef"/>
+<text x="1330.0" y="249.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">Three-cup stack</text>
+<text x="1330.0" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#096b65" text-anchor="middle">Donor</text>
+<path d="M1054,214 L1054,2150" stroke="#d9e2e5" stroke-width="1.6" fill="none"/>
+<rect x="1608" y="214" width="134" height="80" fill="#e8f3ef"/>
+<text x="1675.0" y="236.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">Cup onto</text>
+<text x="1675.0" y="262.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">holder</text>
+<text x="1675.0" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#096b65" text-anchor="middle">Donor</text>
+<path d="M1606,214 L1606,2150" stroke="#d9e2e5" stroke-width="1.6" fill="none"/>
+<rect x="1746" y="214" width="134" height="80" fill="#e8f3ef"/>
+<text x="1813.0" y="236.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">Cap onto</text>
+<text x="1813.0" y="262.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">branch</text>
+<text x="1813.0" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#096b65" text-anchor="middle">Donor</text>
+<path d="M1744,214 L1744,2150" stroke="#d9e2e5" stroke-width="1.6" fill="none"/>
+<rect x="1884" y="214" width="134" height="80" fill="#e8f3ef"/>
+<text x="1951.0" y="236.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">Marker into</text>
+<text x="1951.0" y="262.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">container</text>
+<text x="1951.0" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#096b65" text-anchor="middle">Donor</text>
+<path d="M1882,214 L1882,2150" stroke="#d9e2e5" stroke-width="1.6" fill="none"/>
+<rect x="2022" y="214" width="134" height="80" fill="#e8f3ef"/>
+<text x="2089.0" y="236.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">Battery into</text>
+<text x="2089.0" y="262.0" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#096b65" text-anchor="middle">bowl</text>
+<text x="2089.0" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#096b65" text-anchor="middle">Donor</text>
+<path d="M2020,214 L2020,2150" stroke="#d9e2e5" stroke-width="1.6" fill="none"/>
+<text x="571.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Three-cup</text>
+<text x="571.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">stack</text>
+<text x="571.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="709.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Two upright</text>
+<text x="709.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">cups</text>
+<text x="709.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="847.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Three upright</text>
+<text x="847.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">cups</text>
+<text x="847.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="985.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Two inverted</text>
+<text x="985.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">cups</text>
+<text x="985.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="1123.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Five-cup</text>
+<text x="1123.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">stack</text>
+<text x="1123.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="1261.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Five-cup stack</text>
+<text x="1261.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">Random layout</text>
+<text x="1261.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="1399.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Six-cup</text>
+<text x="1399.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">stack</text>
+<text x="1399.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="1537.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Six-cup stack</text>
+<text x="1537.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">Random layout</text>
+<text x="1537.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="1675.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Cap onto</text>
+<text x="1675.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">branch</text>
+<text x="1675.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="1813.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Cup onto</text>
+<text x="1813.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">holder</text>
+<text x="1813.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="1951.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Battery into</text>
+<text x="1951.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">bowl</text>
+<text x="1951.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<text x="2089.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Marker into</text>
+<text x="2089.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">container</text>
+<text x="2089.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
+<rect x="42" y="386" width="2116" height="42" fill="#f7f9fa"/>
+<text x="55" y="414" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#18323d" text-anchor="start">Robot interface &amp; calibration</text>
+<path d="M42,386 L2158,386" stroke="#d9e2e5" stroke-width="1" fill="none"/>
+<text x="55" y="453" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Robot connection &amp; commands</text>
+<rect x="505" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,446 569.0,451 580.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,446 707.0,451 718.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="781" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,446 845.0,451 856.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,446 983.0,451 994.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1057" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,446 1121.0,451 1132.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,446 1259.0,451 1270.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,446 1397.0,451 1408.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,446 1535.0,451 1546.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,446 1673.0,451 1684.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,446 1811.0,451 1822.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,446 1949.0,451 1960.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="430" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,446 2087.0,451 2098.0,439" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,464 L2158,464" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="489" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Gen3 kinematics</text>
+<text x="571.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="466" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,482 845.0,487 856.0,475" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="466" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,482 983.0,487 994.0,475" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="489" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,500 L2158,500" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="525" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Kinematic model &amp; fitting</text>
+<rect x="505" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,518 569.0,523 580.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,518 707.0,523 718.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="525" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="525" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,518 1121.0,523 1132.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,518 1259.0,523 1270.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,518 1397.0,523 1408.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,518 1535.0,523 1546.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,518 1673.0,523 1684.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,518 1811.0,523 1822.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,518 1949.0,523 1960.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="502" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,518 2087.0,523 2098.0,511" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,536 L2158,536" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="561" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Forward-kinematics fitting</text>
+<text x="571.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="538" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,554 845.0,559 856.0,547" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="538" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,554 983.0,559 994.0,547" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="561" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,572 L2158,572" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="597" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Calibration data</text>
+<rect x="505" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,590 569.0,595 580.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,590 707.0,595 718.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="597" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="597" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,590 1121.0,595 1132.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,590 1259.0,595 1270.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,590 1397.0,595 1408.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,590 1535.0,595 1546.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,590 1673.0,595 1684.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,590 1811.0,595 1822.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,590 1949.0,595 1960.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="574" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,590 2087.0,595 2098.0,583" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,608 L2158,608" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="633" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Camera-rig calibration</text>
+<text x="571.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="610" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,626 845.0,631 856.0,619" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="610" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,626 983.0,631 994.0,619" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="633" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,644 L2158,644" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<rect x="42" y="644" width="2116" height="42" fill="#f7f9fa"/>
+<text x="55" y="672" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#18323d" text-anchor="start">Motion &amp; safeguards</text>
+<path d="M42,644 L2158,644" stroke="#d9e2e5" stroke-width="1" fill="none"/>
+<text x="55" y="711" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Motion planning</text>
+<rect x="505" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,704 569.0,709 580.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,704 707.0,709 718.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="781" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,704 845.0,709 856.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,704 983.0,709 994.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1057" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,704 1121.0,709 1132.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,704 1259.0,709 1270.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,704 1397.0,709 1408.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,704 1535.0,709 1546.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,704 1673.0,709 1684.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,704 1811.0,709 1822.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,704 1949.0,709 1960.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="688" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,704 2087.0,709 2098.0,697" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,722 L2158,722" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="747" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Joint-speed control</text>
+<rect x="505" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,740 569.0,745 580.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,740 707.0,745 718.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="781" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,740 845.0,745 856.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,740 983.0,745 994.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1057" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,740 1121.0,745 1132.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,740 1259.0,745 1270.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,740 1397.0,745 1408.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,740 1535.0,745 1546.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,740 1673.0,745 1684.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,740 1811.0,745 1822.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,740 1949.0,745 1960.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="724" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,740 2087.0,745 2098.0,733" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,758 L2158,758" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="783" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cup-clearance replay</text>
+<text x="571.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="760" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,776 845.0,781 856.0,769" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="760" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,776 983.0,781 994.0,769" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,794 L2158,794" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="819" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Simulation replay checks</text>
+<rect x="505" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,812 569.0,817 580.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,812 707.0,817 718.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="819" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="819" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,812 1121.0,817 1132.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,812 1259.0,817 1270.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,812 1397.0,817 1408.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,812 1535.0,817 1546.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,812 1673.0,817 1684.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,812 1811.0,817 1822.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,812 1949.0,817 1960.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="796" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,812 2087.0,817 2098.0,805" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,830 L2158,830" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="855" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Safety watchdog</text>
+<text x="571.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="832" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,848 845.0,853 856.0,841" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="832" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,848 983.0,853 994.0,841" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="855" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,866 L2158,866" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="891" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Stop, return home &amp; watchdog</text>
+<rect x="505" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,884 569.0,889 580.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,884 707.0,889 718.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="891" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="891" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,884 1121.0,889 1132.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,884 1259.0,889 1270.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,884 1397.0,889 1408.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,884 1535.0,889 1546.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,884 1673.0,889 1684.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,884 1811.0,889 1822.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,884 1949.0,889 1960.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="868" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,884 2087.0,889 2098.0,877" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,902 L2158,902" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<rect x="42" y="902" width="2116" height="42" fill="#f7f9fa"/>
+<text x="55" y="930" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#18323d" text-anchor="start">Cameras &amp; perception</text>
+<path d="M42,902 L2158,902" stroke="#d9e2e5" stroke-width="1" fill="none"/>
+<text x="55" y="969" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cameras &amp; height maps</text>
+<text x="571.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1885" y="946" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,962 1949.0,967 1960.0,955" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="2089.0" y="969" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,980 L2158,980" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cameras &amp; live view</text>
+<text x="571.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="982" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,998 1121.0,1003 1132.0,991" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="982" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,998 1259.0,1003 1270.0,991" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="982" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,998 1397.0,1003 1408.0,991" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="982" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,998 1535.0,1003 1546.0,991" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1675.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1016 L2158,1016" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cameras &amp; point clouds</text>
+<text x="571.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1609" y="1018" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,1034 1673.0,1039 1684.0,1027" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="1018" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,1034 1811.0,1039 1822.0,1027" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1951.0" y="1041" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="2023" y="1018" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,1034 2087.0,1039 2098.0,1027" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,1052 L2158,1052" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Live camera display</text>
+<rect x="505" y="1054" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,1070 569.0,1075 580.0,1063" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="1054" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,1070 707.0,1075 718.0,1063" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="781" y="1054" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,1070 845.0,1075 856.0,1063" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="1054" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,1070 983.0,1075 994.0,1063" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1747" y="1054" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,1070 1811.0,1075 1822.0,1063" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1951.0" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1077" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1088 L2158,1088" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Side-depth cup finder</text>
+<text x="571.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="1090" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,1106 845.0,1111 856.0,1099" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="1090" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,1106 983.0,1111 994.0,1099" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1124 L2158,1124" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1149" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Side-view cup position &amp; height</text>
+<rect x="505" y="1126" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,1142 569.0,1147 580.0,1135" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="1126" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,1142 707.0,1147 718.0,1135" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="1149" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1149" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="1126" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,1142 1121.0,1147 1132.0,1135" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="1126" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,1142 1259.0,1147 1270.0,1135" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="1126" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,1142 1397.0,1147 1408.0,1135" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="1126" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,1142 1535.0,1147 1546.0,1135" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1675.0" y="1149" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1149" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1149" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1149" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1160 L2158,1160" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Wrist-camera cup refinement</text>
+<rect x="505" y="1162" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,1178 569.0,1183 580.0,1171" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="1162" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,1178 707.0,1183 718.0,1171" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1196 L2158,1196" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Wrist-depth refinement</text>
+<text x="571.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="1198" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,1214 1121.0,1219 1132.0,1207" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="1198" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,1214 1259.0,1219 1270.0,1207" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="1198" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,1214 1397.0,1219 1408.0,1207" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="1198" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,1214 1535.0,1219 1546.0,1207" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1675.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1221" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1232 L2158,1232" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Wrist-view refinement</text>
+<text x="571.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1747" y="1234" width="132" height="32" fill="#fff0d7"/>
+<text x="1813.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
+<text x="1951.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1268 L2158,1268" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Marker &amp; container detection</text>
+<text x="571.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1885" y="1270" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,1286 1949.0,1291 1960.0,1279" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="2089.0" y="1293" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1304 L2158,1304" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Battery &amp; bowl perception</text>
+<text x="571.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1329" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="2023" y="1306" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,1322 2087.0,1327 2098.0,1315" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,1340 L2158,1340" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Holder finger &amp; cup perception</text>
+<text x="571.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1609" y="1342" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,1358 1673.0,1363 1684.0,1351" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1813.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1365" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1376 L2158,1376" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Holder &amp; cap perception</text>
+<text x="571.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1747" y="1378" width="132" height="32" fill="#fff0d7"/>
+<text x="1813.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
+<text x="1951.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1412 L2158,1412" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<rect x="42" y="1412" width="2116" height="42" fill="#f7f9fa"/>
+<text x="55" y="1440" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#18323d" text-anchor="start">Task rules from demonstrations</text>
+<path d="M42,1412 L2158,1412" stroke="#d9e2e5" stroke-width="1" fill="none"/>
+<text x="55" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Rule extraction from demonstrations</text>
+<rect x="505" y="1456" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,1472 569.0,1477 580.0,1465" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="1456" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,1472 707.0,1477 718.0,1465" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="781" y="1456" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,1472 845.0,1477 856.0,1465" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="1456" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,1472 983.0,1477 994.0,1465" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1479" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1490 L2158,1490" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cup-stack rule &amp; demo helpers</text>
+<text x="571.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="1492" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,1508 1121.0,1513 1132.0,1501" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="1492" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,1508 1259.0,1513 1270.0,1501" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="1492" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,1508 1397.0,1513 1408.0,1501" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="1492" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,1508 1535.0,1513 1546.0,1501" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1675.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1515" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1526 L2158,1526" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Marker rule &amp; demo helpers</text>
+<text x="571.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1885" y="1528" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,1544 1949.0,1549 1960.0,1537" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="2089.0" y="1551" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1562 L2158,1562" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Battery rule &amp; demo helpers</text>
+<text x="571.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1587" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="2023" y="1564" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,1580 2087.0,1585 2098.0,1573" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,1598 L2158,1598" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cup-holder rule &amp; demo helpers</text>
+<text x="571.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1609" y="1600" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,1616 1673.0,1621 1684.0,1609" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1813.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1623" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1634 L2158,1634" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Branch rule &amp; demo helpers</text>
+<text x="571.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1747" y="1636" width="132" height="32" fill="#fff0d7"/>
+<text x="1813.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
+<text x="1951.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1670 L2158,1670" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<rect x="42" y="1670" width="2116" height="42" fill="#f7f9fa"/>
+<text x="55" y="1698" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#18323d" text-anchor="start">Grasping, placement &amp; verification</text>
+<path d="M42,1670 L2158,1670" stroke="#d9e2e5" stroke-width="1" fill="none"/>
+<text x="55" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cup grasping &amp; nesting</text>
+<text x="571.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="1714" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,1730 845.0,1735 856.0,1723" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="1714" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,1730 983.0,1735 994.0,1723" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1737" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1748 L2158,1748" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cup grasping / placement checks</text>
+<rect x="505" y="1750" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,1766 569.0,1771 580.0,1759" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="1750" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,1766 707.0,1771 718.0,1759" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1773" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1784 L2158,1784" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cup grasping &amp; pyramid placement</text>
+<text x="571.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="1786" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,1802 1121.0,1807 1132.0,1795" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="1786" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,1802 1259.0,1807 1270.0,1795" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="1786" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,1802 1397.0,1807 1408.0,1795" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="1786" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,1802 1535.0,1807 1546.0,1795" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1675.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1820 L2158,1820" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Marker grasping &amp; placement</text>
+<text x="571.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1885" y="1822" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,1838 1949.0,1843 1960.0,1831" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="2089.0" y="1845" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1856 L2158,1856" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Battery grasping &amp; placement</text>
+<text x="571.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1881" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="2023" y="1858" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,1874 2087.0,1879 2098.0,1867" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,1892 L2158,1892" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cup placement over a holder’s finger</text>
+<text x="571.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1609" y="1894" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,1910 1673.0,1915 1684.0,1903" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1813.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1917" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1928 L2158,1928" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Cap grasping &amp; hanging</text>
+<text x="571.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1747" y="1930" width="132" height="32" fill="#fff0d7"/>
+<text x="1813.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
+<text x="1951.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,1964 L2158,1964" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Container-placement verification</text>
+<text x="571.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1885" y="1966" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,1982 1949.0,1987 1960.0,1975" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="2089.0" y="1989" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,2000 L2158,2000" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Placement verification</text>
+<text x="571.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="847.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1123.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1609" y="2002" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,2018 1673.0,2023 1684.0,2011" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1813.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="2025" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="2023" y="2002" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,2018 2087.0,2023 2098.0,2011" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,2036 L2158,2036" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<rect x="42" y="2036" width="2116" height="42" fill="#f7f9fa"/>
+<text x="55" y="2064" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#18323d" text-anchor="start">Complete task programs</text>
+<path d="M42,2036 L2158,2036" stroke="#d9e2e5" stroke-width="1" fill="none"/>
+<text x="55" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Upright-cup task program</text>
+<text x="571.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="709.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="781" y="2080" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="840.0,2096 845.0,2101 856.0,2089" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="919" y="2080" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="978.0,2096 983.0,2101 994.0,2089" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1123.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1261.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1399.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1537.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1675.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1813.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="1951.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="2089.0" y="2103" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<path d="M42,2114 L2158,2114" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<text x="55" y="2139" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#18323d" text-anchor="start">Task-program scaffold</text>
+<rect x="505" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="564.0,2132 569.0,2137 580.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="643" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="702.0,2132 707.0,2137 718.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="847.0" y="2139" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<text x="985.0" y="2139" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
+<rect x="1057" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1116.0,2132 1121.0,2137 1132.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1195" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1254.0,2132 1259.0,2137 1270.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1333" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1392.0,2132 1397.0,2137 1408.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1471" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1530.0,2132 1535.0,2137 1546.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1609" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1668.0,2132 1673.0,2137 1684.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1747" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1806.0,2132 1811.0,2137 1822.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1885" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="1944.0,2132 1949.0,2137 1960.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2023" y="2116" width="132" height="32" fill="#e8f3ef"/>
+<polyline points="2082.0,2132 2087.0,2137 2098.0,2125" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42,2150 L2158,2150" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
+<path d="M42,2165 L2158,2165" stroke="#18323d" stroke-width="1.2" fill="none"/>
+</svg>

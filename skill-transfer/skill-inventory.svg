@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2180" viewBox="0 0 2200 2180" role="img" aria-labelledby="title desc">
 <title id="title">Skill libraries and recorded transfers</title>
-<desc id="desc">Complete matrix of 42 skill names across seven donor libraries and twelve recipient directions. Checkmarks indicate retained code in every start. Four cells show two of three starts.</desc>
+<desc id="desc">Complete matrix of 42 skill names across seven donor libraries and twelve recipient directions. Checkmarks indicate retained code in every run. Four cells marked Some indicate code retained in some runs.</desc>
 <rect x="0" y="0" width="2200" height="2180" fill="#ffffff"/>
 <text x="42" y="56" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#18323d" text-anchor="start">Skill libraries and recorded transfers</text>
 <text x="42" y="93" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#516770" text-anchor="start">42 skill names  ·  7 donor libraries  ·  12 transfer directions</text>
 <text x="42" y="137" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#516770" text-anchor="start">Donor = earlier task supplying the library. Recipient = new task receiving the code.</text>
 <polyline points="44,174 49,179 60,167" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="72" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Code retained in every start</text>
+<text x="72" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Code retained in every run</text>
 <rect x="412" y="157" width="60" height="32" fill="#fff0d7"/>
-<text x="442" y="180" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#855319" text-anchor="middle">2/3</text>
-<text x="483" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Code retained in two of three starts</text>
+<text x="442" y="180" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
+<text x="483" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Code retained in some runs</text>
 <text x="893" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#75878e" text-anchor="start">—</text>
 <text x="925" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Skill absent from that donor library</text>
 <path d="M42,203 L2158,203" stroke="#18323d" stroke-width="1.5" fill="none"/>
@@ -496,7 +496,7 @@
 <text x="1537.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="1675.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <rect x="1747" y="1234" width="132" height="32" fill="#fff0d7"/>
-<text x="1813.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">2/3</text>
+<text x="1813.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
 <text x="1951.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="2089.0" y="1257" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <path d="M42,1268 L2158,1268" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
@@ -556,7 +556,7 @@
 <text x="1537.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="1675.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <rect x="1747" y="1378" width="132" height="32" fill="#fff0d7"/>
-<text x="1813.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">2/3</text>
+<text x="1813.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
 <text x="1951.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="2089.0" y="1401" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <path d="M42,1412 L2158,1412" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
@@ -655,7 +655,7 @@
 <text x="1537.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="1675.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <rect x="1747" y="1636" width="132" height="32" fill="#fff0d7"/>
-<text x="1813.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">2/3</text>
+<text x="1813.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
 <text x="1951.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="2089.0" y="1659" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <path d="M42,1670 L2158,1670" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
@@ -768,7 +768,7 @@
 <text x="1537.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="1675.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <rect x="1747" y="1930" width="132" height="32" fill="#fff0d7"/>
-<text x="1813.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">2/3</text>
+<text x="1813.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#855319" text-anchor="middle">Some</text>
 <text x="1951.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <text x="2089.0" y="1953" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#7e8e95" text-anchor="middle">—</text>
 <path d="M42,1964 L2158,1964" stroke="#d9e2e5" stroke-width="0.55" fill="none"/>
