@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2180" viewBox="0 0 2200 2180" role="img" aria-labelledby="title desc">
 <title id="title">Skill libraries and recorded transfers</title>
-<desc id="desc">Complete matrix of 42 skill names across seven donor libraries and twelve recipient directions from twenty-two recorded agent starts. Checkmarks indicate retained code in every start. Four cells show two of three starts.</desc>
+<desc id="desc">Complete matrix of 42 skill names across seven donor libraries and twelve recipient directions. Checkmarks indicate retained code in every start. Four cells show two of three starts.</desc>
 <rect x="0" y="0" width="2200" height="2180" fill="#ffffff"/>
 <text x="42" y="56" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#18323d" text-anchor="start">Skill libraries and recorded transfers</text>
-<text x="42" y="93" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#516770" text-anchor="start">42 skill names  ·  7 donor libraries  ·  12 transfer directions  ·  22 recorded agent starts</text>
+<text x="42" y="93" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#516770" text-anchor="start">42 skill names  ·  7 donor libraries  ·  12 transfer directions</text>
 <text x="42" y="137" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#516770" text-anchor="start">Donor = earlier task supplying the library. Recipient = new task receiving the code.</text>
 <polyline points="44,174 49,179 60,167" fill="none" stroke="#096b65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="72" y="181" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#18323d" text-anchor="start">Code retained in every start</text>
@@ -50,51 +50,39 @@
 <text x="571.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Three-cup</text>
 <text x="571.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">stack</text>
 <text x="571.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="571.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">2 agent starts</text>
 <text x="709.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Two upright</text>
 <text x="709.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">cups</text>
 <text x="709.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="709.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">2 agent starts</text>
 <text x="847.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Three upright</text>
 <text x="847.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">cups</text>
 <text x="847.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="847.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">4 agent starts</text>
 <text x="985.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Two inverted</text>
 <text x="985.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">cups</text>
 <text x="985.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="985.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">1 agent start</text>
 <text x="1123.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Five-cup</text>
 <text x="1123.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">stack</text>
 <text x="1123.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="1123.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">2 agent starts</text>
 <text x="1261.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Five-cup stack</text>
 <text x="1261.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">Random layout</text>
 <text x="1261.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="1261.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">1 agent start</text>
 <text x="1399.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Six-cup</text>
 <text x="1399.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">stack</text>
 <text x="1399.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="1399.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">1 agent start</text>
 <text x="1537.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Six-cup stack</text>
 <text x="1537.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">Random layout</text>
 <text x="1537.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="1537.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">3 agent starts</text>
 <text x="1675.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Cap onto</text>
 <text x="1675.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">branch</text>
 <text x="1675.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="1675.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">1 agent start</text>
 <text x="1813.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Cup onto</text>
 <text x="1813.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">holder</text>
 <text x="1813.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="1813.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">3 agent starts</text>
 <text x="1951.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Battery into</text>
 <text x="1951.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">bowl</text>
 <text x="1951.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="1951.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">1 agent start</text>
 <text x="2089.0" y="317" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#18323d" text-anchor="middle">Marker into</text>
 <text x="2089.0" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#18323d" text-anchor="middle">container</text>
 <text x="2089.0" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">Recipient</text>
-<text x="2089.0" y="379" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#516770" text-anchor="middle">1 agent start</text>
 <rect x="42" y="386" width="2116" height="42" fill="#f7f9fa"/>
 <text x="55" y="414" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#18323d" text-anchor="start">Robot interface &amp; calibration</text>
 <path d="M42,386 L2158,386" stroke="#d9e2e5" stroke-width="1" fill="none"/>
