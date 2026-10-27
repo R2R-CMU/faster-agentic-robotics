@@ -3,6 +3,7 @@
 
     python3 scripts/build_media.py /path/to/far_runs [--out REPO_ROOT]
     python3 scripts/build_media.py /path/to/far_runs --stats    # data only, no videos
+    python3 scripts/build_media.py --terminals ~/far_offline/videos   # terminal clips, on this workstation
 
 The full set of videos lives on WorkStation_4090 (~/CoRL_late-breaking/agentic_robotics_real/far_runs);
 build there (with static/videos/sim_videos copied into --out) and copy static/ back.
@@ -118,18 +119,26 @@ SIM = {
               ("Open drawer", "04_Recipient_open_drawer.mp4"),
               ("Turn off sink faucet", "05_Recipient_turn_off_sink_faucet.mp4")],
     "summary": {"minutes": [-0.23, -0.14], "tokens": [-0.32, -0.25]},
+    "speed": 2,  # the rollout videos are already sped up 2x
 }
 
-# Claude Code screen recordings (OBS, ~/Videos/OBS on WorkStation_4090) of the shown skill-reuse
-# trial: file, start and end in seconds. Only these two transfers were recorded.
+# Terminal recordings of the transfer agent, re-run offline with the same demos and skill library
+# but no robot (~/far_offline/videos on this workstation, already sped up 8x). One per table row.
 TERMINALS = {
-    # seed 1, whole session up to the operator's success at 21:29:27 (+30 s)
-    "2up_to_2down": ("cup up to down transfer kinova_a_seed1.mkv", 0, 1017, "full session"),
-    # seed 2, recording covers the last minutes, up to the success at 00:02:57 (+30 s)
-    "2down_to_2up": ("cup down to up transfer kinova_b_seed2.mkv", 0, 427, "last 7 min of the session"),
+    "2down_to_2up": "row1_cup_up_stacking_offline_transfer-cup_down_stacking_seed3_8x.mp4",
+    "2up_to_2down": "row2_cup_down_stacking_offline_transfer-cup_up_stacking_8x.mp4",
+    "2_to_3cups": "row3_3cups_down_stacking_offline_transfer-cup_down_stacking_8x.mp4",
+    "3to5cups": "row4_5cups_down_stacking_offline_transfer-3cups_down_stacking_8x.mp4",
+    "3to6cups": "row5_6cups_down_stacking_offline_transfer-3cups_down_stacking_8x.mp4",
+    "3to6cups_random": "row6_6cups_down_stacking_random_offline_transfer-3cups_down_stacking_8x.mp4",
+    "cap_to_cup_holder": "row7_hand_cup_holder_offline_transfer-cap_holder_seed2_8x.mp4",
+    "cup_to_cap_holder": "row8_cap_holder_offline_transfer-hand_cup_holder_8x.mp4",
+    "marker_to_battery": "row9_battery_placement_offline_transfer-marker_placement_8x.mp4",
+    "battery_to_marker": "row10_marker_placement_offline_transfer-battery_placement_8x.mp4",
 }
-TERM_SPEED = 16
-TERM_CROP = "crop=1232:693:48:22"  # terminal window inside the 1280x720 desktop capture
+TERM_SPEED = 8
+TERM_SKIP_S = 1.5  # each recording opens on an empty terminal while the session starts
+TERM_NOTE = "offline re-run: demos and skill library, no robot"
 
 # Highlights (listed in ~/path.txt on WorkStation_4090): both cameras side by side.
 # name -> (run under far_runs, speed, poster time in source seconds)
@@ -228,15 +237,14 @@ def build_clip(r, out, name):
     print(f"  {name}: {r['path']}")
 
 
-def build_terminal(obs, out, name, rec):
-    path = os.path.join(out, f"{name}.mp4")
-    f, start, end, _ = rec
-    ffmpeg("-ss", str(start), "-to", str(end), "-i", os.path.join(obs, f), "-an", "-vf",
-           f"{TERM_CROP},scale=1280:720,setpts=PTS/{TERM_SPEED},fps=15",
-           "-c:v", "libx264", "-crf", "30", "-preset", "slow", "-pix_fmt", "yuv420p",
-           "-movflags", "+faststart", path)
-    ffmpeg("-ss", str((end - start) / TERM_SPEED / 2), "-i", path, "-frames:v", "1", "-q:v", "4", path[:-4] + ".jpg")
-    print(f"  {name}: {f} [{start}-{end} s]")
+def build_terminals(src_dir, out):
+    for eid, f in TERMINALS.items():
+        path = os.path.join(out, f"{eid}_terminal.mp4")
+        ffmpeg("-ss", str(TERM_SKIP_S), "-i", os.path.join(src_dir, f), "-an", "-vf", "scale=960:600:flags=lanczos,fps=8",
+               "-c:v", "libx264", "-crf", "30", "-preset", "slow", "-tune", "stillimage", "-pix_fmt", "yuv420p",
+               "-movflags", "+faststart", path)
+        ffmpeg("-ss", str(duration(path) / 2), "-i", path, "-frames:v", "1", "-q:v", "4", path[:-4] + ".jpg")
+        print(f"{eid}_terminal: {f}")
 
 
 def build_highlights(runs, out):
@@ -271,7 +279,7 @@ def paper_table(path):
     return rows, mean
 
 
-def experiment_data(runs, rows, out, videos, obs, table):
+def experiment_data(runs, rows, out, videos, table):
     with open(os.path.join(runs, "results.csv")) as f:
         res = [r for r in csv.DictReader(f) if r["success"] == "True"]
     paper, paper_mean = paper_table(table)
@@ -301,11 +309,9 @@ def experiment_data(runs, rows, out, videos, obs, table):
     def terminal(eid):
         if eid not in TERMINALS:
             return None
-        name = f"{eid}_terminal"
-        if videos:
-            build_terminal(obs, out, name, TERMINALS[eid])
-        return {"video": f"static/videos/{name}.mp4", "poster": f"static/videos/{name}.jpg",
-                "speed": TERM_SPEED, "note": TERMINALS[eid][3]}
+        v = "?v=2"  # bump when the clips are rebuilt so browsers skip their cached copies
+        return {"video": f"static/videos/{eid}_terminal.mp4{v}", "poster": f"static/videos/{eid}_terminal.jpg{v}",
+                "speed": TERM_SPEED, "note": TERM_NOTE}
 
     data = []
     for e in EXPERIMENTS:
@@ -341,24 +347,29 @@ def experiment_data(runs, rows, out, videos, obs, table):
     print(f"paper mean change: tokens {paper_mean['tokens']:+.0%}, agent time {paper_mean['minutes']:+.0%}")
     sim = {"donor": {"name": SIM["donor"][0], "video": f"static/videos/sim_videos/{SIM['donor'][1]}"},
            "tasks": [{"name": n, "video": f"static/videos/sim_videos/{f}"} for n, f in SIM["tasks"]],
-           "summary": SIM["summary"]}
+           "summary": SIM["summary"], "speed": SIM["speed"]}
     return {"speed": EXP_SPEED, "mean_change": paper_mean, "experiments": data, "sim": sim}
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("runs", help="far_runs directory")
+    ap.add_argument("runs", nargs="?", help="far_runs directory")
     ap.add_argument("--out", default=ROOT, help="site root to write static/ into")
     ap.add_argument("--stats", action="store_true", help="write experiments.json only, no videos")
-    ap.add_argument("--obs", default=os.path.expanduser("~/Videos/OBS"), help="OBS screen recordings")
+    ap.add_argument("--terminals", metavar="DIR", help="only build the terminal clips from DIR (~/far_offline/videos)")
     ap.add_argument("--table", help="paper table (default: far_trials/paper_table.tex next to far_runs)")
     a = ap.parse_args()
     vid_dir, data_dir = os.path.join(a.out, "static", "videos"), os.path.join(a.out, "static", "data")
     os.makedirs(vid_dir, exist_ok=True)
+    if a.terminals:  # these recordings live on this workstation, not on WorkStation_4090
+        build_terminals(a.terminals, vid_dir)
+        return
+    if not a.runs:
+        ap.error("far_runs directory is required")
     os.makedirs(data_dir, exist_ok=True)
     rows = load_videos(a.runs)
     table = a.table or os.path.join(os.path.dirname(os.path.abspath(a.runs)), "far_trials", "paper_table.tex")
-    data = experiment_data(a.runs, rows, vid_dir, videos=not a.stats, obs=a.obs, table=table)
+    data = experiment_data(a.runs, rows, vid_dir, videos=not a.stats, table=table)
     with open(os.path.join(data_dir, "experiments.json"), "w") as f:  # generated; do not edit
         json.dump(data, f, ensure_ascii=False, indent=1)
     if not a.stats:

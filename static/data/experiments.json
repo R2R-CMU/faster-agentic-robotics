@@ -84,10 +84,10 @@
     "tokens": 0.39
    },
    "terminal": {
-    "video": "static/videos/2down_to_2up_terminal.mp4",
-    "poster": "static/videos/2down_to_2up_terminal.jpg",
-    "speed": 16,
-    "note": "last 7 min of the session"
+    "video": "static/videos/2down_to_2up_terminal.mp4?v=2",
+    "poster": "static/videos/2down_to_2up_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
    }
   },
   {
@@ -169,10 +169,10 @@
     "tokens": -0.46
    },
    "terminal": {
-    "video": "static/videos/2up_to_2down_terminal.mp4",
-    "poster": "static/videos/2up_to_2down_terminal.jpg",
-    "speed": 16,
-    "note": "full session"
+    "video": "static/videos/2up_to_2down_terminal.mp4?v=2",
+    "poster": "static/videos/2up_to_2down_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
    }
   },
   {
@@ -253,7 +253,12 @@
     "minutes": -0.41,
     "tokens": 0.01
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/2_to_3cups_terminal.mp4?v=2",
+    "poster": "static/videos/2_to_3cups_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   },
   {
    "id": "3to5cups",
@@ -333,7 +338,12 @@
     "minutes": -0.61,
     "tokens": -0.41
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/3to5cups_terminal.mp4?v=2",
+    "poster": "static/videos/3to5cups_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   },
   {
    "id": "3to6cups",
@@ -401,7 +411,12 @@
     "minutes": -0.55,
     "tokens": -0.43
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/3to6cups_terminal.mp4?v=2",
+    "poster": "static/videos/3to6cups_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   },
   {
    "id": "3to6cups_random",
@@ -462,7 +477,12 @@
     "minutes": -0.52,
     "tokens": -0.66
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/3to6cups_random_terminal.mp4?v=2",
+    "poster": "static/videos/3to6cups_random_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   },
   {
    "id": "cap_to_cup_holder",
@@ -536,7 +556,12 @@
     "minutes": -0.47,
     "tokens": -0.45
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/cap_to_cup_holder_terminal.mp4?v=2",
+    "poster": "static/videos/cap_to_cup_holder_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   },
   {
    "id": "cup_to_cap_holder",
@@ -610,7 +635,12 @@
     "minutes": -0.12,
     "tokens": -0.26
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/cup_to_cap_holder_terminal.mp4?v=2",
+    "poster": "static/videos/cup_to_cap_holder_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   },
   {
    "id": "marker_to_battery",
@@ -678,7 +708,12 @@
     "minutes": -0.61,
     "tokens": -0.53
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/marker_to_battery_terminal.mp4?v=2",
+    "poster": "static/videos/marker_to_battery_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   },
   {
    "id": "battery_to_marker",
@@ -739,7 +774,12 @@
     "minutes": -0.51,
     "tokens": -0.61
    },
-   "terminal": null
+   "terminal": {
+    "video": "static/videos/battery_to_marker_terminal.mp4?v=2",
+    "poster": "static/videos/battery_to_marker_terminal.jpg?v=2",
+    "speed": 8,
+    "note": "offline re-run: demos and skill library, no robot"
+   }
   }
  ],
  "sim": {
@@ -778,6 +818,7 @@
     -0.32,
     -0.25
    ]
-  }
+  },
+  "speed": 2
  }
 }
