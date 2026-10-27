@@ -124,6 +124,7 @@ SIM = {
 
 # Terminal recordings of the transfer agent, re-run offline with the same demos and skill library
 # but no robot (~/far_offline/videos on this workstation, already sped up 8x). One per table row.
+# Each clip is a TERM_CLIP_S excerpt from the start of the session.
 TERMINALS = {
     "2down_to_2up": "row1_cup_up_stacking_offline_transfer-cup_down_stacking_seed3_8x.mp4",
     "2up_to_2down": "row2_cup_down_stacking_offline_transfer-cup_up_stacking_8x.mp4",
@@ -137,8 +138,9 @@ TERMINALS = {
     "battery_to_marker": "row10_marker_placement_offline_transfer-battery_placement_8x.mp4",
 }
 TERM_SPEED = 8
+TERM_CLIP_S = 13
 TERM_SKIP_S = 1.5  # each recording opens on an empty terminal while the session starts
-TERM_NOTE = "offline re-run: demos and skill library, no robot"
+TERM_NOTE = "excerpt of an offline re-run"
 
 # Highlights (listed in ~/path.txt on WorkStation_4090): both cameras side by side.
 # name -> (run under far_runs, speed, poster time in source seconds)
@@ -240,7 +242,8 @@ def build_clip(r, out, name):
 def build_terminals(src_dir, out):
     for eid, f in TERMINALS.items():
         path = os.path.join(out, f"{eid}_terminal.mp4")
-        ffmpeg("-ss", str(TERM_SKIP_S), "-i", os.path.join(src_dir, f), "-an", "-vf", "scale=960:600:flags=lanczos,fps=8",
+        ffmpeg("-ss", str(TERM_SKIP_S), "-t", str(TERM_CLIP_S), "-i", os.path.join(src_dir, f), "-an",
+               "-vf", "scale=960:600:flags=lanczos,fps=8",
                "-c:v", "libx264", "-crf", "30", "-preset", "slow", "-tune", "stillimage", "-pix_fmt", "yuv420p",
                "-movflags", "+faststart", path)
         ffmpeg("-ss", str(duration(path) / 2), "-i", path, "-frames:v", "1", "-q:v", "4", path[:-4] + ".jpg")
@@ -309,7 +312,7 @@ def experiment_data(runs, rows, out, videos, table):
     def terminal(eid):
         if eid not in TERMINALS:
             return None
-        v = "?v=2"  # bump when the clips are rebuilt so browsers skip their cached copies
+        v = "?v=4"  # bump when the clips are rebuilt so browsers skip their cached copies
         return {"video": f"static/videos/{eid}_terminal.mp4{v}", "poster": f"static/videos/{eid}_terminal.jpg{v}",
                 "speed": TERM_SPEED, "note": TERM_NOTE}
 

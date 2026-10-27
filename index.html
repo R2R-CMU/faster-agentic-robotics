@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: title block, mosaic of real-robot runs (after EgoScale), paper figure + short intro,
-   one card per physical transfer (generated data in static/data/experiments.json), highlights, BibTeX.
+   one card per physical transfer (generated data in static/data/experiments.json), highlights.
    White page only. */
 :root {
   --bg: #ffffff;
@@ -165,10 +165,6 @@ figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 10px; text-alig
   .card { padding: 16px; }
 }
 
-/* BibTeX */
-.bib { position: relative; }
-pre { background: var(--panel); border-radius: 8px; padding: 16px 18px; margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height: 1.55; overflow-x: auto; }
-.copy { position: absolute; top: 8px; right: 8px; font-family: var(--font-body); font-size: 0.8rem; background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
 footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-block: 28px 44px; border-top: 1px solid var(--line); margin-top: 20px; }
 </style>
 </head>
@@ -242,21 +238,6 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
   </article>
 </section>
 
-<section class="narrow">
-  <h2>BibTeX</h2>
-  <div class="bib" style="margin-top: 16px">
-    <button class="copy" id="copy-bib" type="button">Copy</button>
-<pre id="bibtex">@misc{far2026,
-  title        = {{FAR}: Faster Agentic Robotics with Fewer Tokens},
-  author       = {Chandak, Mayank and Chen, Shi and Chou, Yu-Lun and Grandhi, Vamsi and Medhe, Mayanka and Ichnowski, Jeffrey},
-  howpublished = {Late Breaking Results, Conference on Robot Learning (CoRL)},
-  note         = {Non-archival},
-  year         = {2026},
-  url          = {https://r2r-cmu.github.io/faster-agentic-robotics/}
-}</pre>
-  </div>
-</section>
-
 <footer class="narrow">
   Page layout adapted from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page template (CC BY-SA 4.0).
 </footer>
@@ -273,7 +254,7 @@ var TIPS = {
   donor: 'The earlier task that produced the reusable code.',
   baseline: 'The new task, programmed from scratch.',
   reuse: 'Ours: the new task, programmed starting from the donor\'s skill library.',
-  terminal: 'An offline re-run of the transfer agent with no robot. It runs longer than reported because its simulated attempts count as agent time, while real robot attempts did not.'
+  terminal: 'Part of the transfer agent\'s inference process, from an offline re-run.'
 };
 
 function q(key, name) {
@@ -416,16 +397,6 @@ fetch('static/data/experiments.json', { cache: 'no-cache' })
   dlg.addEventListener('click', function (ev) { if (ev.target === dlg || ev.target.closest('.close')) dlg.close(); });
   dlg.addEventListener('close', function () { big.pause(); big.removeAttribute('src'); big.load(); });
 })();
-
-document.getElementById('copy-bib').addEventListener('click', function () {
-  var btn = this, text = document.getElementById('bibtex').textContent;
-  function done(msg) { btn.textContent = msg; setTimeout(function () { btn.textContent = 'Copy'; }, 1600); }
-  function fallback() {
-    var r = document.createRange(); r.selectNodeContents(document.getElementById('bibtex'));
-    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); done('Press Ctrl+C');
-  }
-  try { navigator.clipboard.writeText(text).then(function () { done('Copied'); }, fallback); } catch (e) { fallback(); }
-});
 </script>
 </body>
 </html>
