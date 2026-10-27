@@ -48,7 +48,7 @@ section { padding-block: 36px; }
 .hero { text-align: center; padding-block: 52px 28px; }
 .title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.15; margin: 0 0 18px; text-wrap: balance; letter-spacing: -0.01em; }
 .title .acr { color: var(--blue); }
-.authors { font-size: 1.15rem; margin: 0 0 4px; display: flex; flex-wrap: wrap; justify-content: center; gap: 2px 22px; }
+.authors { font-size: 1.15rem; margin: 0 0 4px; display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 2px 22px; }
 .authors sup { color: var(--muted); }
 .affil { font-size: 1.05rem; margin: 6px 0 2px; }
 .eq { color: var(--muted); font-size: 0.88rem; margin: 0 0 4px; }
@@ -164,8 +164,8 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
 <header class="hero wide">
   <h1 class="title"><span class="acr">FAR:</span> Faster Agentic Robotics<br>with Fewer Tokens</h1>
   <p class="authors">
-    <span>Mayank Chandak<sup>*</sup></span><span>Shi Chen<sup>*</sup></span><span>Yu-Lun Chou<sup>*</sup></span>
-    <span>Vamsi Grandhi<sup>*</sup></span><span>Mayanka Medhe<sup>*</sup></span><span>Jeff Ichnowski</span>
+    <span><a href="https://mayankchandak.vercel.app/">Mayank Chandak</a><sup>*</sup></span><span><a href="https://shichen.world/">Shi Chen</a><sup>*</sup></span><span><a href="https://uuuloon.github.io/">Yu-Lun Chou</a><sup>*</sup></span>
+    <span><a href="https://vamsi-grandhi.vercel.app/">Vamsi Grandhi</a><sup>*</sup></span><span><a href="https://mayankamedhe.github.io/">Mayanka Medhe</a><sup>*</sup></span><span><a href="https://ichnow.ski/">Jeffrey Ichnowski</a></span>
   </p>
   <p class="affil">Robotics Institute, Carnegie Mellon University</p>
   <p class="eq"><sup>*</sup>Equal contribution; listed alphabetically by surname.</p>
@@ -233,7 +233,7 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
     <button class="copy" id="copy-bib" type="button">Copy</button>
 <pre id="bibtex">@misc{far2026,
   title        = {{FAR}: Faster Agentic Robotics with Fewer Tokens},
-  author       = {Chandak, Mayank and Chen, Shi and Chou, Yu-Lun and Grandhi, Vamsi and Medhe, Mayanka and Ichnowski, Jeff},
+  author       = {Chandak, Mayank and Chen, Shi and Chou, Yu-Lun and Grandhi, Vamsi and Medhe, Mayanka and Ichnowski, Jeffrey},
   howpublished = {Late Breaking Results, Conference on Robot Learning (CoRL)},
   note         = {Non-archival},
   year         = {2026},
