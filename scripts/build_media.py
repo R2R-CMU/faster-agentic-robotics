@@ -109,6 +109,21 @@ EXPERIMENTS = [
          reuse=("marker_placement", "skill_transfer-battery_placement", None, "1")),
 ]
 
+# Donor cost shown on each card: (tokens in M, agent minutes) for the donor task, on the same basis
+# as the paper's baseline rows. Cards not listed fall back to the donor trial in results.csv.
+DONOR_COST = {
+    "2down_to_2up": (8.88, 23.7),
+    "2up_to_2down": (4.45, 26.8),
+    "2_to_3cups": (8.88, 23.7),
+    "3to5cups": (6.17, 18.9),
+    "3to6cups": (6.17, 18.9),
+    "3to6cups_random": (6.17, 18.9),
+    "cap_to_cup_holder": (15.05, 34.1),
+    "cup_to_cap_holder": (18.21, 40.7),
+    "marker_to_battery": (12.89, 30.6),
+    "battery_to_marker": (15.95, 32.9),
+}
+
 # Simulation (Embodied First Exam): donor and recipient rollouts in static/videos/sim_videos.
 # Per-task numbers are not in the paper source here yet; the summary is the paper's Results text.
 SIM = {
@@ -338,6 +353,8 @@ def experiment_data(runs, rows, out, videos, table):
                            "robot_s": round(float(r["video_s"]))}
         label = f"{e['source']} => {e['target']}"
         donor = trials(e["donor"][0], e["donor"][1], [e["donor"][2]])[0]
+        if e["id"] in DONOR_COST:
+            donor["tokens_m"], donor["minutes"] = DONOR_COST[e["id"]]
         data.append({"id": e["id"], "source": e["source"], "target": e["target"],
                      "robot": clips["reuse"]["robot"], "clips": clips,
                      "donor": {**donor, "seeds": []},

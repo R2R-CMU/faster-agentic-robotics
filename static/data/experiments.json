@@ -1,7 +1,7 @@
 {
  "speed": 4,
  "mean_change": {
-  "tokens": -0.31,
+  "tokens": -0.3,
   "minutes": -0.45
  },
  "experiments": [
@@ -39,8 +39,8 @@
    "donor": {
     "seed": "4",
     "robot": "kinova_b",
-    "minutes": 29.9,
-    "tokens_m": 6.18,
+    "minutes": 23.7,
+    "tokens_m": 8.88,
     "seeds": []
    },
    "baseline": {
@@ -124,8 +124,8 @@
    "donor": {
     "seed": "4",
     "robot": "kinova_a",
-    "minutes": 17.7,
-    "tokens_m": 5.4,
+    "minutes": 26.8,
+    "tokens_m": 4.45,
     "seeds": []
    },
    "baseline": {
@@ -209,8 +209,8 @@
    "donor": {
     "seed": "1",
     "robot": "kinova_a",
-    "minutes": 22.3,
-    "tokens_m": 6.19,
+    "minutes": 23.7,
+    "tokens_m": 8.88,
     "seeds": []
    },
    "baseline": {
@@ -294,7 +294,7 @@
    "donor": {
     "seed": "1",
     "robot": "kinova_a",
-    "minutes": 18.3,
+    "minutes": 18.9,
     "tokens_m": 6.17,
     "seeds": []
    },
@@ -379,21 +379,14 @@
    "donor": {
     "seed": "1",
     "robot": "kinova_a",
-    "minutes": 18.3,
+    "minutes": 18.9,
     "tokens_m": 6.17,
     "seeds": []
    },
    "baseline": {
     "minutes": 34.7,
     "tokens_m": 15.88,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_a",
-      "minutes": 32.2,
-      "tokens_m": 13.62
-     }
-    ]
+    "seeds": []
    },
    "reuse": {
     "minutes": 14.6,
@@ -452,21 +445,14 @@
    "donor": {
     "seed": "2",
     "robot": "kinova_a",
-    "minutes": 19.4,
+    "minutes": 18.9,
     "tokens_m": 6.17,
     "seeds": []
    },
    "baseline": {
     "minutes": 32.8,
     "tokens_m": 16.43,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_a",
-      "minutes": 36.1,
-      "tokens_m": 19.59
-     }
-    ]
+    "seeds": []
    },
    "reuse": {
     "minutes": 19.3,
@@ -518,8 +504,8 @@
    "donor": {
     "seed": "1",
     "robot": "kinova_b",
-    "minutes": 32.3,
-    "tokens_m": 11.22,
+    "minutes": 34.1,
+    "tokens_m": 15.05,
     "seeds": []
    },
    "baseline": {
@@ -543,14 +529,7 @@
    "reuse": {
     "minutes": 25.4,
     "tokens_m": 14.11,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_b",
-      "minutes": 21.6,
-      "tokens_m": 10.07
-     }
-    ]
+    "seeds": []
    },
    "change": {
     "minutes": -0.38,
@@ -597,8 +576,8 @@
    "donor": {
     "seed": "2",
     "robot": "kinova_b",
-    "minutes": 41.7,
-    "tokens_m": 23.65,
+    "minutes": 40.7,
+    "tokens_m": 18.21,
     "seeds": []
    },
    "baseline": {
@@ -622,14 +601,7 @@
    "reuse": {
     "minutes": 30.1,
     "tokens_m": 13.8,
-    "seeds": [
-     {
-      "seed": "1",
-      "robot": "kinova_b",
-      "minutes": 29.9,
-      "tokens_m": 11.08
-     }
-    ]
+    "seeds": []
    },
    "change": {
     "minutes": -0.12,
@@ -681,8 +653,8 @@
     "seeds": []
    },
    "baseline": {
-    "minutes": 32.9,
-    "tokens_m": 15.95,
+    "minutes": 35.6,
+    "tokens_m": 14.37,
     "seeds": [
      {
       "seed": "1",
@@ -693,8 +665,8 @@
     ]
    },
    "reuse": {
-    "minutes": 12.1,
-    "tokens_m": 5.86,
+    "minutes": 13.8,
+    "tokens_m": 6.7,
     "seeds": [
      {
       "seed": "1",
@@ -705,8 +677,8 @@
     ]
    },
    "change": {
-    "minutes": -0.63,
-    "tokens": -0.63
+    "minutes": -0.61,
+    "tokens": -0.53
    },
    "terminal": {
     "video": "static/videos/marker_to_battery_terminal.mp4?v=4",
@@ -749,8 +721,8 @@
    "donor": {
     "seed": "1",
     "robot": "kinova_b",
-    "minutes": 35.6,
-    "tokens_m": 14.37,
+    "minutes": 32.9,
+    "tokens_m": 15.95,
     "seeds": []
    },
    "baseline": {
