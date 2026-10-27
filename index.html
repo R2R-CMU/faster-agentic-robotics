@@ -127,6 +127,8 @@ figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 10px; text-alig
 .pill.good { background: #E4EEF7; color: #2B5F8A; }
 .pill b { font-family: var(--font-mono); font-weight: 600; }
 .notes { font-size: 0.82rem; color: var(--muted); margin: 18px auto 0; max-width: 900px; text-align: center; text-wrap: pretty; }
+.notes.agent-time { max-width: none; text-align: left; }
+.notes.playback { margin-top: 6px; }
 
 /* Simulation hub: the donor top-middle, its five recipients around it, arrows from donor to each */
 .sim-grid { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-areas: "r0 d r1" "r2 r3 r4"; gap: 56px 64px; }
@@ -209,7 +211,8 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
   <p class="lede">We test five Embodied First Exam tasks. The transfer agent starts with code from a mug placement task we solved before. The baseline agent starts from scratch.</p>
   <div class="stats" id="sim-stats"></div>
   <div class="sim-grid" id="sim-grid"></div>
-  <p class="notes">Agent time is the summed duration of coding agent turns. Each task has three baseline and three transfer runs with Opus 5.5 at high effort. Videos play at 2×. Click any video to enlarge it.</p>
+  <p class="notes agent-time">Agent time is the summed duration of coding agent turns. Each task has three baseline and three transfer runs with Opus 5.5 at high effort.</p>
+  <p class="notes playback">Videos play at 2×. Click any video to enlarge it.</p>
 </section>
 
 <!-- Physical transfer: cards rendered from static/data/experiments.json -->
@@ -218,7 +221,8 @@ footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding-bl
   <p class="lede">We run ten transfers on two Kinova Gen3 arms. The transfer agent starts with tested code from another task on the same arm. The baseline agent starts from scratch.</p>
   <div class="stats" id="stats"></div>
   <div id="cards"></div>
-  <p class="notes">Agent time is the summed duration of coding agent turns. It excludes robot execution and operator waits. Values average up to two runs on the donor's arm. Videos play at 4×. Click any video to enlarge it.</p>
+  <p class="notes agent-time">Agent time is the summed duration of coding agent turns. It excludes robot execution and operator waits. Values average up to two runs on the donor's arm.</p>
+  <p class="notes playback">Videos play at 4×. Click any video to enlarge it.</p>
 </section>
 
 <!-- Highlights: drop videos at the listed paths and they replace the placeholders -->
