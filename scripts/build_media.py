@@ -59,11 +59,13 @@ MOSAIC_TILES = [
     ("cup_up_stacking", "skill_transfer-cup_down_stacking", "1", "2", "side"),
 ]
 EXP_SPEED = 4  # experiment clips all play at the same speed so durations stay comparable
+CLIP_VERSIONS = {"cap_to_cup_holder_baseline": 2}  # bump when a clip is replaced, so browsers refetch it
 
 # The ten transfers in the paper's table, in its order; source/target match its Donor task / New task columns.
 # donor: the library the shown with-library seed copied (far_skills/*/PROVENANCE.md, attempt = the
 # library's source commit). baseline/reuse: (task, condition, seeds the paper averages or None if
-# results.csv does not reproduce the paper's value, seed whose video is shown).
+# results.csv does not reproduce the paper's value, seed whose video is shown[, attempt shown;
+# default: that seed's first success]).
 EXPERIMENTS = [
     dict(id="2down_to_2up", source="Stack 2 inverted cups", target="Nest 2 upright cups",
          donor=("cup_down_stacking", "baseline", "4", "2"),
@@ -92,7 +94,7 @@ EXPERIMENTS = [
          reuse=("6cups_down_stacking_random", "skill_transfer-3cups_down_stacking", None, "2")),
     dict(id="cap_to_cup_holder", source="Hang cap on branch", target="Cup on wooden finger",
          donor=("cap_holder", "baseline", "1", "4"),
-         baseline=("hand_cup_holder", "baseline", ["2", "3"], "2"),
+         baseline=("hand_cup_holder", "baseline", ["2", "3"], "2", "8"),  # attempt 5 was not a real success
          reuse=("hand_cup_holder", "skill_transfer-cap_holder", ["1"], "1")),
     dict(id="cup_to_cap_holder", source="Cup on wooden finger", target="Hang cap on branch",
          donor=("hand_cup_holder", "baseline", "2", "8"),
@@ -319,7 +321,7 @@ def experiment_data(runs, rows, out, videos, table):
 
     def side(spec, minutes, tokens, label):
         # The paper's mean; per-seed values only when results.csv reproduces it.
-        task, cond, seeds, _ = spec
+        task, cond, seeds = spec[:3]
         ts = trials(task, cond, seeds) if seeds else []
         if ts:
             m = sum(t["minutes"] for t in ts) / len(ts)
@@ -351,12 +353,14 @@ def experiment_data(runs, rows, out, videos, table):
             if role == "donor":
                 task, cond, shown, attempt = e[role]
             else:
-                (task, cond, _, shown), attempt = e[role], None
+                task, cond, _, shown, *attempt = e[role]
+                attempt = attempt[0] if attempt else None
             r = find_video(rows, task, cond, shown, attempt)
             name = f"{e['id']}_{role}"
             if videos:
                 build_clip(r, out, name)
-            clips[role] = {"video": f"static/videos/{name}.mp4", "poster": f"static/videos/{name}.jpg",
+            v = f"?v={CLIP_VERSIONS[name]}" if name in CLIP_VERSIONS else ""
+            clips[role] = {"video": f"static/videos/{name}.mp4{v}", "poster": f"static/videos/{name}.jpg{v}",
                            "seed": shown, "attempt": r["attempt"], "robot": r["robot"],
                            "robot_s": round(float(r["video_s"]))}
         label = f"{e['source']} => {e['target']}"

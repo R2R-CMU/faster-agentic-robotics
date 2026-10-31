@@ -485,12 +485,12 @@
      "robot_s": 159
     },
     "baseline": {
-     "video": "static/videos/cap_to_cup_holder_baseline.mp4",
-     "poster": "static/videos/cap_to_cup_holder_baseline.jpg",
+     "video": "static/videos/cap_to_cup_holder_baseline.mp4?v=2",
+     "poster": "static/videos/cap_to_cup_holder_baseline.jpg?v=2",
      "seed": "2",
-     "attempt": "5",
+     "attempt": "8",
      "robot": "kinova_b",
-     "robot_s": 89
+     "robot_s": 90
     },
     "reuse": {
      "video": "static/videos/cap_to_cup_holder_reuse.mp4",
