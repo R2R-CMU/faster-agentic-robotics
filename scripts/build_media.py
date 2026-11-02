@@ -59,7 +59,7 @@ MOSAIC_TILES = [
     ("cup_up_stacking", "skill_transfer-cup_down_stacking", "1", "2", "side"),
 ]
 EXP_SPEED = 4  # experiment clips all play at the same speed so durations stay comparable
-CLIP_VERSIONS = {"cap_to_cup_holder_baseline": 2}  # bump when a clip is replaced, so browsers refetch it
+CLIP_VERSIONS = {"cap_to_cup_holder_baseline": 2, "3to6cups_random_reuse": 2}  # bump when a clip is replaced, so browsers refetch it
 
 # The ten transfers in the paper's table, in its order; source/target match its Donor task / New task columns.
 # donor: the library the shown with-library seed copied (far_skills/*/PROVENANCE.md, attempt = the
@@ -91,7 +91,7 @@ EXPERIMENTS = [
          donor=("3cups_down_stacking", "baseline", "2", "4"),
          baseline=("6cups_down_stacking_random", "baseline", ["1"], "1"),
          # paper: 6.70M, 17.4 min; no single seed in results.csv matches
-         reuse=("6cups_down_stacking_random", "skill_transfer-3cups_down_stacking", None, "2")),
+         reuse=("6cups_down_stacking_random", "skill_transfer-3cups_down_stacking", None, "2", "2")),  # attempt 1 was not a real success
     dict(id="cap_to_cup_holder", source="Hang cap on branch", target="Cup on wooden finger",
          donor=("cap_holder", "baseline", "1", "4"),
          baseline=("hand_cup_holder", "baseline", ["2", "3"], "2", "8"),  # attempt 5 was not a real success

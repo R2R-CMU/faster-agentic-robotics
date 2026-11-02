@@ -434,12 +434,12 @@
      "robot_s": 262
     },
     "reuse": {
-     "video": "static/videos/3to6cups_random_reuse.mp4",
-     "poster": "static/videos/3to6cups_random_reuse.jpg",
+     "video": "static/videos/3to6cups_random_reuse.mp4?v=2",
+     "poster": "static/videos/3to6cups_random_reuse.jpg?v=2",
      "seed": "2",
-     "attempt": "1",
+     "attempt": "2",
      "robot": "kinova_a",
-     "robot_s": 54
+     "robot_s": 333
     }
    },
    "donor": {
